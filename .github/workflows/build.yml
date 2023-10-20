@@ -17,6 +17,7 @@ jobs:
         echo "START_TIME=$(date '+%s')" >> $GITHUB_ENV
         mkdir -p "$PWD/run"
         echo "FLAG_STOP=$PWD/run/ninjaStop" >> $GITHUB_ENV
+        echo "ROOT=$PWD" >> $GITHUB_ENV
 
     - run: lscpu
     - run: free -m
