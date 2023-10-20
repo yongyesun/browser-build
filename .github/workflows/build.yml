@@ -1,1 +1,14 @@
+name: build
+env:
+    TZ: Asia/Shanghai
 
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    timeout-minutes: 720
+
+    steps:
+    - uses: actions/checkout@v2
