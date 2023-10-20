@@ -68,3 +68,5 @@ jobs:
     - run: sudo apt install ninja-build
     - run: $ROOT/script/create_ccache_config.sh
     - run: $ROOT/script/maximize_build_space.sh
+    - run: $ROOT/script/download_depot.sh
+    - run: $ROOT/script/download_src.sh
