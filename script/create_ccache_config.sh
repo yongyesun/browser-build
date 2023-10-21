@@ -7,6 +7,4 @@ echo "base_dir = $HOME" >> $HOME/.ccache/ccache.conf
 echo "cache_dir = $HOME/cache" >> $HOME/.ccache/ccache.conf
 echo "hash_dir = false" >> $HOME/.ccache/ccache.conf
 git clone --depth=1 https://github.com/wankaiming/kiwibrowser-ccache-arm64.git $HOME/cache
-git config --local user.email "actions@github.com"
-git config --local user.name "GitHub Actions"
 git clone --depth=1 https://github.com/StaZhu/enable-chromium-hevc-hardware-decoding.git $ROOT/hevc
