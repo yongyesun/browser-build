@@ -4,5 +4,9 @@ sudo apt-get install -y python ccache
 mkdir $ROOT/chromium && cd $ROOT/chromium
 fetch --nohooks chromium
 cd src
+cd third_party/ffmpeg
+git am $ROOT/hevc/add-hevc-ffmpeg-decoder-parser.patch
+cd $ROOT/chromium/src
+cp -R $ROOT/hevc/widevine/* third_party/widevine/cdm
 ./build/install-build-deps.sh
 gclient runhooks
