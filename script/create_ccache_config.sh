@@ -6,5 +6,4 @@ echo 'max_size = 20G' >> $HOME/.ccache/ccache.conf
 echo "base_dir = $HOME" >> $HOME/.ccache/ccache.conf
 echo "cache_dir = $HOME/cache" >> $HOME/.ccache/ccache.conf
 echo "hash_dir = false" >> $HOME/.ccache/ccache.conf
-git clone --depth=1 https://github.com/wankaiming/kiwibrowser-ccache-arm64.git $HOME/cache
 git clone --depth=1 https://github.com/StaZhu/enable-chromium-hevc-hardware-decoding.git $ROOT/hevc
