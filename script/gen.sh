@@ -1,9 +1,7 @@
 #!/bin/sh
 cd $ROOT/chromium/src
 mkdir -p out/Release64/
-ls
 cd third_party/ffmpeg
-ls
 git am $ROOT/hevc/add-hevc-ffmpeg-decoder-parser.patch
 cd $ROOT/chromium/src
 cp -R $ROOT/hevc/widevine/* third_party/widevine/cdm
