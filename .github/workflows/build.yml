@@ -66,6 +66,7 @@ jobs:
           sudo apt-get autoclean -y >/dev/null 2>&1 || true
     - run: df -h
     - run: sudo apt install ninja-build
+    - run: chmod -R a+x $ROOT/script/
     - run: $ROOT/script/create_ccache_config.sh
     - run: $ROOT/script/maximize_build_space.sh
     - run: $ROOT/script/download_depot.sh
