@@ -1,8 +1,8 @@
 #!/bin/sh
 sudo apt-get update
 sudo apt-get install -y python ccache
-mkdir $HOME/chromium && cd $HOME/chromium
+mkdir $ROOT/chromium && cd $ROOT/chromium
 fetch --nohooks --no-history chromium
-cd $HOME/chromium/src
+cd src
 ./build/install-build-deps.sh
 gclient runhooks
