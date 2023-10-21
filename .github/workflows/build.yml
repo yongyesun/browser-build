@@ -17,6 +17,7 @@ jobs:
         echo "START_TIME=$(date '+%s')" >> $GITHUB_ENV
         mkdir -p "$PWD/run"
         echo "FLAG_STOP=$PWD/run/ninjaStop" >> $GITHUB_ENV
+        echo "ROOT=$PWD" >> $GITHUB_ENV
 
     - run: lscpu
     - run: free -m
@@ -65,11 +66,11 @@ jobs:
           sudo apt-get autoclean -y >/dev/null 2>&1 || true
     - run: df -h
     - run: sudo apt install ninja-build
-    - run: chmod -R a+x $HOME/script/
-    - run: $HOME/script/create_ccache_config.sh
-    - run: $HOME/script/maximize_build_space.sh
-    - run: $HOME/script/download_depot.sh
-    - run: $HOME/script/download_src.sh
-    - run: $HOME/script/gen.sh
-    - run: $HOME/script/auto_kill.sh
-    - run: $HOME/script/build_step.sh
+    - run: chmod -R a+x $ROOT/script/
+    - run: $ROOT/script/create_ccache_config.sh
+    - run: $ROOT/script/maximize_build_space.sh
+    - run: $ROOT/script/download_depot.sh
+    - run: $ROOT/script/download_src.sh
+    - run: $ROOT/script/gen.sh
+    - run: $ROOT/script/auto_kill.sh
+    - run: $ROOT/script/build_step.sh
