@@ -1,5 +1,4 @@
 #!/bin/sh
-git clone --depth=1 https://github.com/StaZhu/enable-chromium-hevc-hardware-decoding.git $HOME/hevc
 cd $ROOT/chromium/src
 mkdir -p out/Release64/
 ls
