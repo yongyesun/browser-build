@@ -1,7 +1,4 @@
 #!/bin/sh
-git config --local user.email "actions@github.com"
-git config --local user.name "GitHub Actions"
-git clone --depth=1 https://github.com/StaZhu/enable-chromium-hevc-hardware-decoding.git $ROOT/hevc
 cd $ROOT/chromium/src
 mkdir -p out/Release64/
 ls
