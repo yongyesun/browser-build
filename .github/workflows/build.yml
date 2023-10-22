@@ -74,8 +74,9 @@ jobs:
     - run: $ROOT/script/create_ccache_config.sh    
     - run: $ROOT/script/maximize_build_space.sh
     - run: df -h
-    - run: $ROOT/script/download_depot.sh
-    
+    - run: $ROOT/script/download_depot.sh        
+    - run: $ROOT/script/download_src.sh
+        
     - name: SSH connection to Actions
       uses: P3TERX/ssh2actions@v1.0.0
       if: (github.event.inputs.ssh == 'true' && github.event.inputs.ssh  != 'false') || contains(github.event.action, 'ssh')
@@ -83,7 +84,6 @@ jobs:
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         
-    - run: $ROOT/script/download_src.sh     
     - run: $ROOT/script/gen.sh
     - run: $ROOT/script/auto_kill.sh
     - run: $ROOT/script/build_step.sh
