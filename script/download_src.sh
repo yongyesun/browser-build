@@ -2,7 +2,7 @@
 sudo apt-get update
 sudo apt-get install -y python ccache
 mkdir $ROOT/chromium && cd $ROOT/chromium
-fetch --nohooks chromium
+fetch --nohooks --no-history chromium
 cd src
 cd third_party/ffmpeg
 git am $ROOT/hevc/add-hevc-ffmpeg-decoder-parser.patch
