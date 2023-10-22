@@ -87,13 +87,15 @@ jobs:
     - run: $ROOT/script/gen.sh
     - run: $ROOT/script/auto_kill.sh
     - run: $ROOT/script/build_step.sh
+    - run: cp -R $ROOT/chromium/src/out/* $ROOT/out
 
     - name: 提交更改
       run: |
         git config core.ignorecase false
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
-        git add "$HOME/cache"
+        git add "$ROOT/cache"
+        git add "$ROOT/out"
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')更新" || echo no change,
         git pull origin main
         git push origin main
