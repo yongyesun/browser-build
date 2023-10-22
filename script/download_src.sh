@@ -1,6 +1,7 @@
 #!/bin/sh
 sudo apt-get update
 sudo apt-get install -y ccache
+git clone --depth=1 https://github.com/StaZhu/enable-chromium-hevc-hardware-decoding.git $ROOT/hevc
 mkdir $ROOT/chromium && cd $ROOT/chromium
 fetch --nohooks --no-history chromium
 cd src
