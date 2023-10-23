@@ -87,7 +87,8 @@ jobs:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
     
     - run: $ROOT/script/build_step.sh
-    - run: killall sleep && cp -R $ROOT/chromium/src/out/* $ROOT/out
+    - run: killall sleep
+    - run: cp -R $ROOT/chromium/src/out/* $ROOT/out
 
     - name: 提交更改
       run: |
