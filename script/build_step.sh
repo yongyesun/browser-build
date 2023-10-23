@@ -5,7 +5,7 @@ ln -s ccache /usr/local/bin/gcc
 ln -s ccache /usr/local/bin/g++
 cd $ROOT/chromium/src
 autoninja -C out/Release64 chrome || echo ninja canceld
-if test $? == 143
+if test $? == 143 
 then
   git config core.ignorecase false
   git config --local user.email "actions@github.com"
