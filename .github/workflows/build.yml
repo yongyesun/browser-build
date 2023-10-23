@@ -76,7 +76,9 @@ jobs:
     - run: $ROOT/script/maximize_build_space.sh
     - run: df -h
     - run: $ROOT/script/download_depot.sh        
-    - run: $ROOT/script/download_src.sh
+    - run: $ROOT/script/download_src.sh    
+    - run: $ROOT/script/gen.sh
+    - run: $ROOT/script/auto_kill.sh
         
     - name: SSH connection to Actions
       uses: P3TERX/ssh2actions@v1.0.0
@@ -84,9 +86,7 @@ jobs:
       env:
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        
-    - run: $ROOT/script/gen.sh
-    - run: $ROOT/script/auto_kill.sh
+    
     - run: $ROOT/script/build_step.sh
     - run: killall sleep || true
     - run: cp -R $ROOT/chromium/src/out/* $ROOT/out
