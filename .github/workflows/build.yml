@@ -23,7 +23,14 @@ jobs:
         mkdir -p "$PWD/run"
         echo "FLAG_STOP=$PWD/run/ninjaStop" >> $GITHUB_ENV
         echo "ROOT=$PWD" >> $GITHUB_ENV
-
+        
+    - name: SSH connection to Actions
+      uses: P3TERX/ssh2actions@v1.0.0
+      if: (github.event.inputs.ssh == 'true' && github.event.inputs.ssh  != 'false') || contains(github.event.action, 'ssh')
+      env:
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+    
     - run: lscpu
     - run: free -m
     - run: df -h
@@ -79,14 +86,6 @@ jobs:
     - run: $ROOT/script/download_src.sh    
     - run: $ROOT/script/gen.sh
     - run: $ROOT/script/auto_kill.sh
-        
-    - name: SSH connection to Actions
-      uses: P3TERX/ssh2actions@v1.0.0
-      if: (github.event.inputs.ssh == 'true' && github.event.inputs.ssh  != 'false') || contains(github.event.action, 'ssh')
-      env:
-        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-    
     - run: $ROOT/script/build_step.sh
     - run: killall sleep || true
     - run: cp -R $ROOT/chromium/src/out/* $ROOT/out
