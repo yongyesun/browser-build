@@ -88,6 +88,7 @@ jobs:
     - run: $ROOT/script/gen.sh
     - run: $ROOT/script/auto_kill.sh
     - run: $ROOT/script/build_step.sh
+    - run: killall sleep || true
     - run: cp -R $ROOT/chromium/src/out/* $ROOT/out
 
     - name: 提交更改
