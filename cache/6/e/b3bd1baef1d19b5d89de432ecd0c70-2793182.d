@@ -1,0 +1,28 @@
+obj/third_party/boringssl/boringssl/trust_store_collection.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/boringssl/src/pki/trust_store_collection.cc \
+  ../../third_party/boringssl/src/pki/trust_store_collection.h \
+  ../../third_party/boringssl/src/pki/fillins/openssl_util.h \
+  ../../third_party/boringssl/src/include/openssl/base.h \
+  ../../third_party/boringssl/src/include/openssl/is_boringssl.h \
+  ../../third_party/boringssl/src/include/openssl/opensslconf.h \
+  ../../third_party/boringssl/src/include/openssl/target.h \
+  ../../third_party/boringssl/src/pki/trust_store.h \
+  ../../third_party/boringssl/src/pki/cert_issuer_source.h \
+  ../../third_party/boringssl/src/pki/parsed_certificate.h \
+  ../../third_party/boringssl/src/pki/certificate_policies.h \
+  ../../third_party/boringssl/src/pki/input.h \
+  ../../third_party/boringssl/src/include/openssl/span.h \
+  ../../third_party/boringssl/src/pki/parse_certificate.h \
+  ../../third_party/boringssl/src/pki/general_names.h \
+  ../../third_party/boringssl/src/pki/cert_error_id.h \
+  ../../third_party/boringssl/src/pki/parse_values.h \
+  ../../third_party/boringssl/src/pki/signature_algorithm.h \
+  ../../third_party/boringssl/src/include/openssl/evp.h \
+  ../../third_party/boringssl/src/include/openssl/evp_errors.h \
+  ../../third_party/boringssl/src/include/openssl/thread.h \
+  ../../third_party/boringssl/src/include/openssl/aead.h \
+  ../../third_party/boringssl/src/include/openssl/base64.h \
+  ../../third_party/boringssl/src/include/openssl/cipher.h \
+  ../../third_party/boringssl/src/include/openssl/digest.h \
+  ../../third_party/boringssl/src/include/openssl/nid.h
