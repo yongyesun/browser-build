@@ -8,7 +8,7 @@ autoninja -C out/Release64 chrome || echo ninja canceld code $?
 COUNT=$(ps -C sleep --no-header |wc -l)
 if [ $COUNT -eq 0 ]
 then
-  cd $ROOT/cache && ls -a && echo "/nls ccache"
+  cd $ROOT/cache && ls -a && echo "ls ccache"
   cd $ROOT
   git config core.ignorecase false
   git config --local user.email "actions@github.com"
