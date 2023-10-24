@@ -20,8 +20,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: env
       run: |
-        echo "CC=ccache clang -Qunused-arguments" >> $GITHUB_ENV
-        echo "CXX=ccache clang++ -Qunused-arguments" >> $GITHUB_ENV
         echo "START_TIME=$(date '+%s')" >> $GITHUB_ENV
         mkdir -p "$PWD/run"
         echo "FLAG_STOP=$PWD/run/ninjaStop" >> $GITHUB_ENV
