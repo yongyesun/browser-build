@@ -1,8 +1,8 @@
 #!/bin/sh
 test -f "$FLAG_STOP" && echo skip && exit 0 || echo ninja start
-cp /usr/bin/ccache /usr/local/bin/
-ln -s ccache /usr/local/bin/gcc
-ln -s ccache /usr/local/bin/g++
+#cp /usr/bin/ccache /usr/local/bin/
+#ln -s ccache /usr/local/bin/gcc
+#ln -s ccache /usr/local/bin/g++
 cd $ROOT/chromium/src
 autoninja -C out/Release64 chrome || echo ninja canceld code $?
 COUNT=$(ps -C sleep --no-header |wc -l)
