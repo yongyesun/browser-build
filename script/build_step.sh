@@ -1,8 +1,9 @@
 #!/bin/sh
 test -f "$FLAG_STOP" && echo skip && exit 0 || echo ninja start
-cp /usr/bin/ccache /usr/local/bin/
-ln -s /usr/local/bin/ccache /usr/local/bin/clang
-ln -s /usr/local/bin/ccache /usr/local/bin/clang++
+#cp /usr/bin/ccache /usr/local/bin/
+#ln -s /usr/local/bin/ccache /usr/local/bin/clang
+#ln -s /usr/local/bin/ccache /usr/local/bin/clang++
+ls -a $HOME/.ccache && cat $HOME/.ccache/ccache.conf
 cd $ROOT/chromium/src
 autoninja -C out/Release64 chrome || echo ninja canceld code $?
 COUNT=$(ps -C sleep --no-header |wc -l)
