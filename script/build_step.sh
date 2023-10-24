@@ -12,7 +12,7 @@ then
   git config --local user.email "actions@github.com"
   git config --local user.name "GitHub Actions"
   cd $ROOT
-  git add "./cache"
+  git add "./ccache"
   git commit -m "$(date '+%Y-%m-%d %H:%M:%S')更新" || echo no change,
   git pull origin main
   git push origin main
