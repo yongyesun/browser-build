@@ -39,8 +39,7 @@ jobs:
     - run: lscpu
     - run: df -h
     - run: chmod -R a+x $ROOT/script/
-    - run: $ROOT/script/create_ccache_config.sh    
-    - run: $ROOT/script/maximize_build_space.sh
+    - run: $ROOT/script/create_ccache_config.sh
     - run: df -h
     - run: $ROOT/script/download_depot.sh        
     - run: $ROOT/script/download_src.sh    
