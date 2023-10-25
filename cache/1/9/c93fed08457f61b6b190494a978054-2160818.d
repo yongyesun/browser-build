@@ -1,0 +1,9 @@
+obj/third_party/pdfium/core/fxcodec/fxcodec/cfx_gif.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/pdfium/core/fxcodec/gif/cfx_gif.cpp \
+  ../../third_party/pdfium/core/fxcodec/gif/cfx_gif.h \
+  ../../third_party/pdfium/core/fxcrt/data_vector.h \
+  ../../third_party/pdfium/core/fxcrt/fx_memory_wrappers.h \
+  ../../third_party/pdfium/core/fxcrt/fx_memory.h \
+  ../../third_party/pdfium/third_party/base/compiler_specific.h \
+  ../../build/build_config.h ../../build/buildflag.h

@@ -1,0 +1,36 @@
+obj/third_party/openscreen/src/cast/streaming/common/environment.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/openscreen/src/cast/streaming/environment.cc \
+  ../../third_party/openscreen/src/cast/streaming/environment.h \
+  ../../third_party/openscreen/src/cast/streaming/statistics_collector.h \
+  ../../third_party/openscreen/src/cast/streaming/statistics_defines.h \
+  ../../third_party/openscreen/src/cast/streaming/constants.h \
+  ../../third_party/openscreen/src/cast/streaming/frame_id.h \
+  ../../third_party/openscreen/src/cast/streaming/expanded_value_base.h \
+  ../../third_party/openscreen/src/util/osp_logging.h \
+  ../../third_party/openscreen/src/platform/api/logging.h \
+  ../../third_party/openscreen/src/cast/streaming/rtp_time.h \
+  ../../third_party/openscreen/src/platform/api/time.h \
+  ../../third_party/openscreen/src/platform/base/trivial_clock_traits.h \
+  ../../third_party/openscreen/src/util/saturate_cast.h \
+  ../../third_party/openscreen/src/util/enum_name_table.h \
+  ../../third_party/abseil-cpp/absl/strings/match.h \
+  ../../third_party/abseil-cpp/absl/strings/string_view.h \
+  ../../third_party/abseil-cpp/absl/base/attributes.h \
+  ../../third_party/abseil-cpp/absl/base/config.h \
+  ../../third_party/abseil-cpp/absl/base/options.h \
+  ../../third_party/abseil-cpp/absl/base/policy_checks.h \
+  ../../third_party/abseil-cpp/absl/base/internal/throw_delegate.h \
+  ../../third_party/abseil-cpp/absl/base/macros.h \
+  ../../third_party/abseil-cpp/absl/base/optimization.h \
+  ../../third_party/abseil-cpp/absl/base/port.h \
+  ../../third_party/openscreen/src/platform/base/error.h \
+  ../../third_party/openscreen/src/platform/base/macros.h \
+  ../../third_party/openscreen/src/platform/base/span.h \
+  ../../third_party/openscreen/src/platform/api/udp_socket.h \
+  ../../third_party/openscreen/src/platform/api/network_interface.h \
+  ../../third_party/openscreen/src/platform/base/interface_info.h \
+  ../../third_party/openscreen/src/platform/base/ip_address.h \
+  ../../third_party/openscreen/src/platform/base/udp_packet.h \
+  ../../third_party/openscreen/src/cast/streaming/rtp_defines.h \
+  ../../third_party/openscreen/src/platform/api/task_runner.h

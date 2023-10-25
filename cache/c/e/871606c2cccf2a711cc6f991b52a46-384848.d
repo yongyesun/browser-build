@@ -1,0 +1,30 @@
+obj/third_party/opus/opus/pitch_analysis_core_FLP.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/opus/src/silk/float/pitch_analysis_core_FLP.c \
+  ../../third_party/opus/src/silk/float/SigProc_FLP.h \
+  ../../third_party/opus/src/silk/SigProc_FIX.h \
+  ../../third_party/opus/src/silk/typedef.h \
+  ../../third_party/opus/src/include/opus_types.h \
+  ../../third_party/opus/src/include/opus_defines.h \
+  ../../third_party/opus/src/silk/resampler_structs.h \
+  ../../third_party/opus/src/silk/macros.h \
+  ../../third_party/opus/src/celt/arch.h \
+  ../../third_party/opus/src/celt/ecintrin.h \
+  ../../third_party/opus/src/celt/cpu_support.h \
+  ../../third_party/opus/src/celt/x86/x86cpu.h \
+  ../../third_party/opus/src/silk/x86/SigProc_FIX_sse.h \
+  ../../third_party/opus/src/silk/Inlines.h \
+  ../../third_party/opus/src/silk/MacroCount.h \
+  ../../third_party/opus/src/silk/MacroDebug.h \
+  ../../third_party/opus/src/celt/float_cast.h \
+  ../../third_party/opus/src/silk/pitch_est_defines.h \
+  ../../third_party/opus/src/celt/pitch.h \
+  ../../third_party/opus/src/celt/modes.h \
+  ../../third_party/opus/src/celt/celt.h \
+  ../../third_party/opus/src/include/opus_custom.h \
+  ../../third_party/opus/src/celt/entenc.h \
+  ../../third_party/opus/src/celt/entcode.h \
+  ../../third_party/opus/src/celt/entdec.h \
+  ../../third_party/opus/src/celt/mdct.h \
+  ../../third_party/opus/src/celt/kiss_fft.h \
+  ../../third_party/opus/src/celt/x86/pitch_sse.h

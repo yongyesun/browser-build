@@ -1,0 +1,28 @@
+obj/third_party/dawn/src/dawn/wire/static/ServerHandlers_autogen.o: \
+  ../../tools/cfi/ignores.txt \
+  gen/third_party/dawn/src/dawn/wire/server/ServerHandlers_autogen.cpp \
+  ../../third_party/dawn/src/dawn/common/Assert.h \
+  ../../third_party/dawn/src/dawn/common/Compiler.h \
+  ../../third_party/dawn/src/dawn/wire/server/Server.h \
+  ../../third_party/dawn/src/dawn/wire/ChunkedCommandSerializer.h \
+  ../../third_party/dawn/src/dawn/common/Alloc.h \
+  ../../third_party/dawn/src/dawn/common/Constants.h \
+  ../../third_party/dawn/src/dawn/common/Math.h \
+  ../../third_party/dawn/include/dawn/wire/Wire.h \
+  gen/third_party/dawn/include/dawn/webgpu.h \
+  ../../third_party/dawn/include/dawn/wire/dawn_wire_export.h \
+  gen/third_party/dawn/src/dawn/wire/WireCmd_autogen.h \
+  ../../third_party/dawn/src/dawn/wire/BufferConsumer.h \
+  ../../third_party/dawn/src/dawn/wire/WireResult.h \
+  gen/third_party/dawn/src/dawn/wire/ObjectType_autogen.h \
+  ../../third_party/dawn/src/dawn/common/ityp_array.h \
+  ../../third_party/dawn/src/dawn/common/TypedInteger.h \
+  ../../third_party/dawn/src/dawn/common/UnderlyingType.h \
+  ../../third_party/dawn/src/dawn/wire/ObjectHandle.h \
+  gen/third_party/dawn/src/dawn/wire/server/ServerBase_autogen.h \
+  gen/third_party/dawn/include/dawn/dawn_proc_table.h \
+  ../../third_party/dawn/src/dawn/wire/ChunkedCommandHandler.h \
+  ../../third_party/dawn/src/dawn/wire/WireDeserializeAllocator.h \
+  ../../third_party/dawn/src/dawn/wire/server/ObjectStorage.h \
+  ../../third_party/dawn/include/dawn/wire/WireServer.h \
+  gen/third_party/dawn/src/dawn/wire/server/ServerPrototypes_autogen.inc

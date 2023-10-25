@@ -1,0 +1,33 @@
+obj/third_party/openscreen/src/util/util/sha2.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/openscreen/src/util/crypto/sha2.cc \
+  ../../third_party/openscreen/src/util/crypto/sha2.h \
+  ../../third_party/boringssl/src/include/openssl/sha.h \
+  ../../third_party/boringssl/src/include/openssl/base.h \
+  ../../third_party/boringssl/src/include/openssl/is_boringssl.h \
+  ../../third_party/boringssl/src/include/openssl/opensslconf.h \
+  ../../third_party/boringssl/src/include/openssl/target.h \
+  ../../third_party/openscreen/src/platform/base/error.h \
+  ../../third_party/openscreen/src/platform/base/macros.h \
+  ../../third_party/openscreen/src/util/crypto/secure_hash.h \
+  ../../third_party/boringssl/src/include/openssl/evp.h \
+  ../../third_party/boringssl/src/include/openssl/evp_errors.h \
+  ../../third_party/boringssl/src/include/openssl/thread.h \
+  ../../third_party/boringssl/src/include/openssl/aead.h \
+  ../../third_party/boringssl/src/include/openssl/base64.h \
+  ../../third_party/boringssl/src/include/openssl/cipher.h \
+  ../../third_party/boringssl/src/include/openssl/digest.h \
+  ../../third_party/boringssl/src/include/openssl/nid.h \
+  ../../third_party/openscreen/src/util/std_util.h \
+  ../../third_party/abseil-cpp/absl/algorithm/container.h \
+  ../../third_party/abseil-cpp/absl/algorithm/algorithm.h \
+  ../../third_party/abseil-cpp/absl/base/config.h \
+  ../../third_party/abseil-cpp/absl/base/options.h \
+  ../../third_party/abseil-cpp/absl/base/policy_checks.h \
+  ../../third_party/abseil-cpp/absl/base/macros.h \
+  ../../third_party/abseil-cpp/absl/base/attributes.h \
+  ../../third_party/abseil-cpp/absl/base/optimization.h \
+  ../../third_party/abseil-cpp/absl/base/port.h \
+  ../../third_party/abseil-cpp/absl/meta/type_traits.h \
+  ../../third_party/openscreen/src/util/stringprintf.h \
+  ../../third_party/openscreen/src/platform/base/span.h

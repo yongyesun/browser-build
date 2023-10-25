@@ -1,0 +1,30 @@
+obj/third_party/vulkan-deps/vulkan-validation-layers/src/vulkan_layer_utils/logging.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/logging.cpp \
+  ../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/logging.h \
+  ../../third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/utility/vk_struct_helper.hpp \
+  ../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan.h \
+  ../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vk_platform.h \
+  ../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_core.h \
+  ../../third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_h264std.h \
+  ../../third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codecs_common.h \
+  ../../third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_h264std_decode.h \
+  ../../third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_h265std.h \
+  ../../third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_h265std_decode.h \
+  ../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_wayland.h \
+  ../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_xcb.h \
+  ../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_beta.h \
+  ../../third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_h264std_encode.h \
+  ../../third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_h265std_encode.h \
+  ../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_config.h \
+  ../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vk_layer.h \
+  ../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/custom_containers.h \
+  ../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_layer_dispatch_table.h \
+  ../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_object_types.h \
+  ../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/cast_utils.h \
+  ../../third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/vk_enum_string_helper.h \
+  ../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_safe_struct.h \
+  ../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_validation_error_messages.h \
+  ../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/xxhash.h \
+  ../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/error_location.h \
+  ../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/error_location_helper.h

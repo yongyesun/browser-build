@@ -1,0 +1,36 @@
+obj/third_party/swiftshader/src/Reactor/swiftshader_subzero/ErrorHandling.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/swiftshader/third_party/llvm-subzero/lib/Support/ErrorHandling.cpp \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/Support/ErrorHandling.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/Support/Compiler.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/build/Linux/include/llvm/Config/llvm-config.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm-c/ErrorHandling.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/ADT/SmallVector.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/ADT/iterator_range.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/Support/AlignOf.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/Support/MathExtras.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/Support/SwapByteOrder.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/build/Linux/include/llvm/Support/DataTypes.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/Support/type_traits.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/ADT/Twine.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/ADT/StringRef.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/ADT/STLExtras.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/ADT/Optional.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/ADT/None.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/ADT/iterator.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/build/Linux/include/llvm/Config/config.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/Support/Debug.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/Support/Errc.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/Support/Error.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/ADT/StringExtras.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/build/Linux/include/llvm/Config/abi-breaking.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/Support/ErrorOr.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/ADT/PointerIntPair.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/Support/PointerLikeTypeTraits.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/Support/raw_ostream.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/Support/ManagedStatic.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/Support/Mutex.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/Support/Threading.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/Support/MutexGuard.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/Support/Signals.h \
+  ../../third_party/swiftshader/third_party/llvm-subzero/include/llvm/Support/WindowsError.h

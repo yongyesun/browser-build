@@ -1,0 +1,30 @@
+obj/third_party/perfetto/src/tracing/core/service/trace_buffer.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/perfetto/src/tracing/core/trace_buffer.cc \
+  ../../third_party/perfetto/src/tracing/core/trace_buffer.h \
+  ../../third_party/perfetto/include/perfetto/base/logging.h \
+  ../../third_party/perfetto/include/perfetto/base/build_config.h \
+  gen/third_party/perfetto/build_config/perfetto_build_flags.h \
+  ../../third_party/perfetto/include/perfetto/base/compiler.h \
+  ../../third_party/perfetto/include/perfetto/public/compiler.h \
+  ../../third_party/perfetto/include/perfetto/base/export.h \
+  ../../third_party/perfetto/include/perfetto/public/abi/export.h \
+  ../../third_party/perfetto/include/perfetto/ext/base/flat_hash_map.h \
+  ../../third_party/perfetto/include/perfetto/ext/base/hash.h \
+  ../../third_party/perfetto/include/perfetto/ext/base/utils.h \
+  ../../third_party/perfetto/include/perfetto/ext/base/sys_types.h \
+  ../../third_party/perfetto/include/perfetto/ext/base/paged_memory.h \
+  ../../third_party/perfetto/include/perfetto/ext/base/container_annotations.h \
+  ../../third_party/perfetto/include/perfetto/ext/base/thread_annotations.h \
+  ../../third_party/perfetto/include/perfetto/ext/tracing/core/basic_types.h \
+  ../../third_party/perfetto/include/perfetto/ext/tracing/core/slice.h \
+  ../../third_party/perfetto/include/perfetto/ext/tracing/core/trace_stats.h \
+  ../../third_party/perfetto/include/perfetto/tracing/core/forward_decls.h \
+  gen/third_party/perfetto/protos/perfetto/common/trace_stats.gen.h \
+  ../../third_party/perfetto/include/perfetto/protozero/cpp_message_obj.h \
+  ../../third_party/perfetto/include/perfetto/protozero/copyable_ptr.h \
+  ../../third_party/perfetto/src/tracing/core/histogram.h \
+  ../../third_party/perfetto/include/perfetto/ext/tracing/core/shared_memory_abi.h \
+  ../../third_party/perfetto/include/perfetto/protozero/proto_utils.h \
+  ../../third_party/perfetto/include/perfetto/public/pb_utils.h \
+  ../../third_party/perfetto/include/perfetto/ext/tracing/core/trace_packet.h

@@ -1,0 +1,26 @@
+obj/third_party/dawn/src/dawn/native/sources/Features.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/dawn/src/dawn/native/Features.cpp \
+  ../../third_party/dawn/src/dawn/native/Features.h \
+  ../../third_party/dawn/src/dawn/common/ityp_bitset.h \
+  ../../third_party/dawn/src/dawn/common/BitSetIterator.h \
+  ../../third_party/dawn/src/dawn/common/Assert.h \
+  ../../third_party/dawn/src/dawn/common/Compiler.h \
+  ../../third_party/dawn/src/dawn/common/Math.h \
+  ../../third_party/dawn/src/dawn/common/UnderlyingType.h \
+  ../../third_party/dawn/src/dawn/common/Platform.h \
+  ../../third_party/dawn/src/dawn/common/TypedInteger.h \
+  ../../third_party/dawn/include/dawn/native/DawnNative.h \
+  gen/third_party/dawn/include/dawn/dawn_proc_table.h \
+  gen/third_party/dawn/include/dawn/webgpu.h \
+  ../../third_party/dawn/include/dawn/native/dawn_native_export.h \
+  gen/third_party/dawn/include/dawn/webgpu_cpp.h \
+  gen/third_party/dawn/include/dawn/webgpu_cpp_chained_struct.h \
+  ../../third_party/dawn/include/dawn/EnumClassBitmasks.h \
+  gen/third_party/dawn/src/dawn/native/Features_autogen.h \
+  ../../third_party/dawn/src/dawn/common/ityp_array.h \
+  ../../third_party/dawn/src/dawn/native/dawn_platform.h \
+  gen/third_party/dawn/src/dawn/native/dawn_platform_autogen.h \
+  ../../third_party/dawn/src/dawn/native/Forward.h \
+  gen/third_party/dawn/src/dawn/native/wgpu_structs_autogen.h \
+  gen/third_party/dawn/src/dawn/native/Features_autogen.inl

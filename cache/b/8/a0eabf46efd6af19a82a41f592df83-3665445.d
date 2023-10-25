@@ -1,0 +1,37 @@
+obj/third_party/swiftshader/third_party/SPIRV-Tools/spvtools_opt/control_dependence.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/opt/control_dependence.cpp \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/opt/control_dependence.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/opt/cfg.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/opt/basic_block.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/opt/instruction.h \
+  gen/third_party/swiftshader/third_party/SPIRV-Tools/NonSemanticShaderDebugInfo100.h \
+  gen/third_party/swiftshader/third_party/SPIRV-Tools/OpenCLDebugInfo100.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/binary.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/spirv_definition.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/latest_version_spirv_header.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Headers/include/spirv/unified1/spirv.hpp11 \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/include/spirv-tools/libspirv.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/common_debug_info.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/latest_version_glsl_std_450_header.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Headers/include/spirv/unified1/GLSL.std.450.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/opcode.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/instruction.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/table.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/extensions.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/enum_set.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/util/make_unique.h \
+  gen/third_party/swiftshader/third_party/SPIRV-Tools/extension_enum.inc \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/include/spirv-tools/libspirv.hpp \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/operand.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/opt/reflect.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/util/ilist_node.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/util/small_vector.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/util/string_utils.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/opt/instruction_list.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/util/ilist.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/opt/iterator.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/opt/dominator_analysis.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/opt/dominator_tree.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/opt/tree_iterator.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/opt/function.h

@@ -1,0 +1,20 @@
+obj/third_party/openscreen/src/cast/common/public/cast_streaming_app_ids.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/openscreen/src/cast/common/public/cast_streaming_app_ids.cc \
+  ../../third_party/openscreen/src/cast/common/public/cast_streaming_app_ids.h \
+  ../../third_party/abseil-cpp/absl/strings/match.h \
+  ../../third_party/abseil-cpp/absl/strings/string_view.h \
+  ../../third_party/abseil-cpp/absl/base/attributes.h \
+  ../../third_party/abseil-cpp/absl/base/config.h \
+  ../../third_party/abseil-cpp/absl/base/options.h \
+  ../../third_party/abseil-cpp/absl/base/policy_checks.h \
+  ../../third_party/abseil-cpp/absl/base/internal/throw_delegate.h \
+  ../../third_party/abseil-cpp/absl/base/macros.h \
+  ../../third_party/abseil-cpp/absl/base/optimization.h \
+  ../../third_party/abseil-cpp/absl/base/port.h \
+  ../../third_party/openscreen/src/util/std_util.h \
+  ../../third_party/abseil-cpp/absl/algorithm/container.h \
+  ../../third_party/abseil-cpp/absl/algorithm/algorithm.h \
+  ../../third_party/abseil-cpp/absl/meta/type_traits.h \
+  ../../third_party/openscreen/src/util/stringprintf.h \
+  ../../third_party/openscreen/src/platform/base/span.h

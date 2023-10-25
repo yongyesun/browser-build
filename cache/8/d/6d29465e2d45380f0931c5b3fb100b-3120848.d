@@ -1,0 +1,26 @@
+obj/third_party/dawn/src/tint/lang/wgsl/inspector/inspector/entry_point.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/dawn/src/tint/lang/wgsl/inspector/entry_point.cc \
+  ../../third_party/dawn/src/tint/lang/wgsl/inspector/entry_point.h \
+  ../../third_party/dawn/src/tint/api/common/override_id.h \
+  ../../third_party/dawn/src/tint/utils/reflection/reflection.h \
+  ../../third_party/dawn/src/tint/utils/macros/concat.h \
+  ../../third_party/dawn/src/tint/utils/macros/foreach.h \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/interpolate_attribute.h \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/attribute.h \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/node.h \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/node_id.h \
+  ../../third_party/dawn/src/tint/utils/diagnostic/source.h \
+  ../../third_party/dawn/src/tint/utils/text/string_stream.h \
+  ../../third_party/dawn/src/tint/utils/text/unicode.h \
+  ../../third_party/dawn/src/tint/utils/traits/traits.h \
+  ../../third_party/dawn/src/tint/utils/id/generation_id.h \
+  ../../third_party/dawn/src/tint/utils/ice/ice.h \
+  ../../third_party/dawn/src/tint/utils/macros/compiler.h \
+  ../../third_party/dawn/src/tint/utils/rtti/castable.h \
+  ../../third_party/dawn/src/tint/utils/math/crc32.h \
+  ../../third_party/dawn/src/tint/utils/containers/vector.h \
+  ../../third_party/dawn/src/tint/utils/containers/slice.h \
+  ../../third_party/dawn/src/tint/utils/memory/bitcast.h \
+  ../../third_party/dawn/src/tint/utils/math/hash.h \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/pipeline_stage.h

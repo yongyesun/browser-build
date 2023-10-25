@@ -1,0 +1,30 @@
+obj/third_party/swiftshader/third_party/SPIRV-Tools/spvtools/ext_inst.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/ext_inst.cpp \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/ext_inst.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/table.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/extensions.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/enum_set.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/latest_version_spirv_header.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Headers/include/spirv/unified1/spirv.hpp11 \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/util/make_unique.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/include/spirv-tools/libspirv.h \
+  gen/third_party/swiftshader/third_party/SPIRV-Tools/extension_enum.inc \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/include/spirv-tools/libspirv.hpp \
+  gen/third_party/swiftshader/third_party/SPIRV-Tools/DebugInfo.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/latest_version_glsl_std_450_header.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Headers/include/spirv/unified1/GLSL.std.450.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/latest_version_opencl_std_header.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Headers/include/spirv/unified1/OpenCL.std.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/macro.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/spirv_definition.h \
+  gen/third_party/swiftshader/third_party/SPIRV-Tools/debuginfo.insts.inc \
+  gen/third_party/swiftshader/third_party/SPIRV-Tools/glsl.std.450.insts.inc \
+  gen/third_party/swiftshader/third_party/SPIRV-Tools/nonsemantic.clspvreflection.insts.inc \
+  gen/third_party/swiftshader/third_party/SPIRV-Tools/nonsemantic.shader.debuginfo.100.insts.inc \
+  gen/third_party/swiftshader/third_party/SPIRV-Tools/opencl.debuginfo.100.insts.inc \
+  gen/third_party/swiftshader/third_party/SPIRV-Tools/opencl.std.insts.inc \
+  gen/third_party/swiftshader/third_party/SPIRV-Tools/spv-amd-gcn-shader.insts.inc \
+  gen/third_party/swiftshader/third_party/SPIRV-Tools/spv-amd-shader-ballot.insts.inc \
+  gen/third_party/swiftshader/third_party/SPIRV-Tools/spv-amd-shader-explicit-vertex-parameter.insts.inc \
+  gen/third_party/swiftshader/third_party/SPIRV-Tools/spv-amd-shader-trinary-minmax.insts.inc
