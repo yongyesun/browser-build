@@ -21,7 +21,6 @@ jobs:
       uses: easimon/maximize-build-space@master
       with:
         root-reserve-mb: 1536
-        temp-reserve-mb: 512
         swap-size-mb: 1024
         remove-dotnet: 'true'
         remove-android: 'true'
@@ -57,7 +56,9 @@ jobs:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
     
     - run: $ROOT/script/build_step.sh
-    - run: killall sleep && cp -R $ROOT/chromium/src/out/* $ROOT/out
+    - run: df -h
+    - run: ccache -s
+    - run: killall sleep && cp -r $ROOT/chromium/src/out/ $ROOT/out
 
     - name: 提交更改
       run: |
