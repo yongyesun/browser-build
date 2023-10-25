@@ -1,0 +1,34 @@
+obj/third_party/ffmpeg/ffmpeg_internal/allcodecs.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/ffmpeg/libavcodec/allcodecs.c \
+  ../../third_party/ffmpeg/chromium/config/Chrome/linux/x64/config.h \
+  ../../third_party/ffmpeg/chromium/config/Chrome/linux/x64/config_components.h \
+  ../../third_party/ffmpeg/libavutil/thread.h \
+  ../../third_party/ffmpeg/libavutil/error.h \
+  ../../third_party/ffmpeg/libavutil/macros.h \
+  ../../third_party/ffmpeg/chromium/config/Chrome/linux/x64/libavutil/avconfig.h \
+  ../../third_party/ffmpeg/libavcodec/codec.h \
+  ../../third_party/ffmpeg/libavutil/avutil.h \
+  ../../third_party/ffmpeg/libavutil/common.h \
+  ../../third_party/ffmpeg/libavutil/attributes.h \
+  ../../third_party/ffmpeg/libavutil/intmath.h \
+  ../../third_party/ffmpeg/libavutil/x86/intmath.h \
+  ../../third_party/ffmpeg/libavutil/mem.h \
+  ../../third_party/ffmpeg/libavutil/internal.h \
+  ../../third_party/ffmpeg/libavutil/pixfmt.h \
+  ../../third_party/ffmpeg/libavutil/version.h \
+  ../../third_party/ffmpeg/libavutil/libm.h \
+  ../../third_party/ffmpeg/libavutil/intfloat.h \
+  ../../third_party/ffmpeg/libavutil/mathematics.h \
+  ../../third_party/ffmpeg/libavutil/rational.h \
+  ../../third_party/ffmpeg/libavutil/log.h \
+  ../../third_party/ffmpeg/libavutil/hwcontext.h \
+  ../../third_party/ffmpeg/libavutil/buffer.h \
+  ../../third_party/ffmpeg/libavutil/frame.h \
+  ../../third_party/ffmpeg/libavutil/channel_layout.h \
+  ../../third_party/ffmpeg/libavutil/dict.h \
+  ../../third_party/ffmpeg/libavutil/samplefmt.h \
+  ../../third_party/ffmpeg/libavcodec/codec_id.h \
+  ../../third_party/ffmpeg/libavcodec/version_major.h \
+  ../../third_party/ffmpeg/libavcodec/codec_internal.h \
+  ../../third_party/ffmpeg/chromium/config/Chrome/linux/x64/libavcodec/codec_list.c

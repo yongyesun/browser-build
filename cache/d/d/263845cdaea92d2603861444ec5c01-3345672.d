@@ -1,0 +1,34 @@
+obj/third_party/swiftshader/src/Vulkan/swiftshader_libvulkan/VkBufferView.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/swiftshader/src/Vulkan/VkBufferView.cpp \
+  ../../third_party/swiftshader/src/Vulkan/VkBufferView.hpp \
+  ../../third_party/swiftshader/src/Vulkan/VkFormat.hpp \
+  ../../third_party/swiftshader/src/System/Types.hpp \
+  ../../third_party/swiftshader/src/Vulkan/VulkanPlatform.hpp \
+  ../../third_party/swiftshader/include/vulkan/vk_google_filtering_precision.h \
+  ../../third_party/swiftshader/include/vulkan/vulkan_core.h \
+  ../../third_party/swiftshader/include/vulkan/vk_platform.h \
+  ../../third_party/swiftshader/include/vk_video/vulkan_video_codec_h264std.h \
+  ../../third_party/swiftshader/include/vk_video/vulkan_video_codecs_common.h \
+  ../../third_party/swiftshader/include/vk_video/vulkan_video_codec_h264std_decode.h \
+  ../../third_party/swiftshader/include/vk_video/vulkan_video_codec_h265std.h \
+  ../../third_party/swiftshader/include/vk_video/vulkan_video_codec_h265std_decode.h \
+  ../../third_party/swiftshader/src/Vulkan/VkImageView.hpp \
+  ../../third_party/swiftshader/src/Vulkan/VkImage.hpp \
+  ../../third_party/swiftshader/src/Vulkan/VkObject.hpp \
+  ../../third_party/swiftshader/src/Vulkan/VkConfig.hpp \
+  ../../third_party/swiftshader/src/Vulkan/Version.hpp \
+  ../../third_party/swiftshader/src/Device/Config.hpp \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/include/spirv-tools/libspirv.h \
+  ../../third_party/swiftshader/src/Vulkan/VkMemory.hpp \
+  ../../third_party/swiftshader/src/System/Debug.hpp \
+  ../../third_party/swiftshader/include/vulkan/vk_icd.h \
+  ../../third_party/swiftshader/include/vulkan/vulkan.h \
+  ../../third_party/swiftshader/include/vulkan/vulkan_wayland.h \
+  ../../third_party/swiftshader/include/xcb/xcb.h \
+  ../../third_party/swiftshader/include/xcb/xproto.h \
+  ../../third_party/swiftshader/include/vulkan/vulkan_xcb.h \
+  ../../third_party/swiftshader/third_party/marl/include/marl/mutex.h \
+  ../../third_party/swiftshader/third_party/marl/include/marl/export.h \
+  ../../third_party/swiftshader/third_party/marl/include/marl/tsa.h \
+  ../../third_party/swiftshader/src/Vulkan/VkBuffer.hpp

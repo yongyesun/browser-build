@@ -1,0 +1,27 @@
+obj/third_party/perfetto/src/trace_processor/util/protozero_to_text/protozero_to_text.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/perfetto/src/trace_processor/util/protozero_to_text.cc \
+  ../../third_party/perfetto/src/trace_processor/util/protozero_to_text.h \
+  ../../third_party/perfetto/include/perfetto/protozero/field.h \
+  ../../third_party/perfetto/include/perfetto/base/logging.h \
+  ../../third_party/perfetto/include/perfetto/base/build_config.h \
+  gen/third_party/perfetto/build_config/perfetto_build_flags.h \
+  ../../third_party/perfetto/include/perfetto/base/compiler.h \
+  ../../third_party/perfetto/include/perfetto/public/compiler.h \
+  ../../third_party/perfetto/include/perfetto/base/export.h \
+  ../../third_party/perfetto/include/perfetto/public/abi/export.h \
+  ../../third_party/perfetto/include/perfetto/protozero/contiguous_memory_range.h \
+  ../../third_party/perfetto/include/perfetto/protozero/proto_utils.h \
+  ../../third_party/perfetto/include/perfetto/public/pb_utils.h \
+  ../../third_party/perfetto/include/perfetto/ext/base/string_utils.h \
+  ../../third_party/perfetto/include/perfetto/ext/base/string_view.h \
+  ../../third_party/perfetto/include/perfetto/ext/base/hash.h \
+  ../../third_party/perfetto/include/perfetto/protozero/proto_decoder.h \
+  gen/third_party/perfetto/protos/perfetto/common/descriptor.pbzero.h \
+  ../../third_party/perfetto/include/perfetto/protozero/field_writer.h \
+  ../../third_party/perfetto/include/perfetto/protozero/message.h \
+  ../../third_party/perfetto/include/perfetto/protozero/scattered_stream_writer.h \
+  ../../third_party/perfetto/include/perfetto/protozero/packed_repeated_fields.h \
+  ../../third_party/perfetto/src/trace_processor/util/descriptors.h \
+  ../../third_party/perfetto/include/perfetto/base/status.h \
+  gen/third_party/perfetto/src/trace_processor/importers/proto/track_event.descriptor.h

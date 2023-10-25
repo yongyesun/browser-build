@@ -1,0 +1,27 @@
+obj/third_party/swiftshader/third_party/SPIRV-Tools/spvtools/text_handler.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/text_handler.cpp \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/text_handler.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/diagnostic.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/include/spirv-tools/libspirv.hpp \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/include/spirv-tools/libspirv.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/instruction.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/latest_version_spirv_header.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Headers/include/spirv/unified1/spirv.hpp11 \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/text.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/operand.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/table.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/extensions.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/enum_set.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/util/make_unique.h \
+  gen/third_party/swiftshader/third_party/SPIRV-Tools/extension_enum.inc \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/spirv_constant.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/assembly_grammar.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/binary.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/spirv_definition.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/ext_inst.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/opcode.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/util/bitutils.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/util/hex_float.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/util/parse_number.h \
+  ../../third_party/swiftshader/third_party/SPIRV-Tools/source/util/string_utils.h

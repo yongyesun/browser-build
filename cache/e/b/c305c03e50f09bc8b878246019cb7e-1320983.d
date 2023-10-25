@@ -1,0 +1,15 @@
+obj/base/base/asan_invalid_access.o: ../../tools/cfi/ignores.txt \
+  ../../base/debug/asan_invalid_access.cc \
+  ../../base/debug/asan_invalid_access.h ../../base/base_export.h \
+  ../../base/compiler_specific.h ../../build/build_config.h \
+  ../../build/buildflag.h gen/base/sanitizer_buildflags.h \
+  ../../base/check.h ../../base/dcheck_is_on.h \
+  gen/base/debug/debugging_buildflags.h ../../base/immediate_crash.h \
+  ../../base/location.h ../../base/memory/raw_ptr_exclusion.h \
+  ../../base/allocator/partition_allocator/src/partition_alloc/pointers/raw_ptr_exclusion.h \
+  ../../base/allocator/partition_allocator/src/partition_alloc/partition_alloc_base/compiler_specific.h \
+  gen/base/allocator/partition_allocator/src/partition_alloc/partition_alloc_buildflags.h \
+  ../../base/trace_event/base_tracing_forward.h \
+  gen/base/tracing_buildflags.h \
+  ../../third_party/perfetto/include/perfetto/tracing/traced_value_forward.h \
+  ../../base/debug/alias.h

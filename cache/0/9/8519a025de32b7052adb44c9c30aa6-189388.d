@@ -1,0 +1,26 @@
+obj/third_party/libwebp/libwebp_dec/vp8l_dec.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/libwebp/src/src/dec/vp8l_dec.c \
+  ../../third_party/libwebp/src/src/dec/alphai_dec.h \
+  ../../third_party/libwebp/src/src/dec/webpi_dec.h \
+  ../../third_party/libwebp/src/src/utils/rescaler_utils.h \
+  ../../third_party/libwebp/src/src/webp/types.h \
+  ../../third_party/libwebp/src/src/dec/vp8_dec.h \
+  ../../third_party/libwebp/src/src/webp/decode.h \
+  ../../third_party/libwebp/src/src/webp/./types.h \
+  ../../third_party/libwebp/src/src/utils/filters_utils.h \
+  ../../third_party/libwebp/src/src/dsp/dsp.h \
+  ../../third_party/libwebp/src/src/dsp/cpu.h \
+  ../../third_party/libwebp/src/src/dec/vp8li_dec.h \
+  ../../third_party/libwebp/src/src/utils/bit_reader_utils.h \
+  ../../third_party/libwebp/src/src/utils/color_cache_utils.h \
+  ../../third_party/libwebp/src/src/utils/huffman_utils.h \
+  ../../third_party/libwebp/src/src/webp/format_constants.h \
+  ../../third_party/libwebp/src/src/dsp/lossless.h \
+  ../../third_party/libwebp/src/src/enc/histogram_enc.h \
+  ../../third_party/libwebp/src/src/enc/backward_references_enc.h \
+  ../../third_party/libwebp/src/src/webp/encode.h \
+  ../../third_party/libwebp/src/src/utils/utils.h \
+  ../../third_party/libwebp/src/src/dsp/lossless_common.h \
+  ../../third_party/libwebp/src/src/dsp/yuv.h \
+  ../../third_party/libwebp/src/src/utils/endian_inl_utils.h

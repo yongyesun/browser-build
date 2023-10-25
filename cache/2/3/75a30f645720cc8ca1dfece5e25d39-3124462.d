@@ -1,0 +1,30 @@
+obj/third_party/dawn/src/tint/lang/wgsl/ast/ast/variable.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/variable.cc \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/variable.h \
+  ../../third_party/dawn/src/tint/lang/core/access.h \
+  ../../third_party/dawn/src/tint/utils/traits/traits.h \
+  ../../third_party/dawn/src/tint/lang/core/address_space.h \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/attribute.h \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/node.h \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/node_id.h \
+  ../../third_party/dawn/src/tint/utils/diagnostic/source.h \
+  ../../third_party/dawn/src/tint/utils/text/string_stream.h \
+  ../../third_party/dawn/src/tint/utils/text/unicode.h \
+  ../../third_party/dawn/src/tint/utils/id/generation_id.h \
+  ../../third_party/dawn/src/tint/utils/ice/ice.h \
+  ../../third_party/dawn/src/tint/utils/macros/compiler.h \
+  ../../third_party/dawn/src/tint/utils/macros/concat.h \
+  ../../third_party/dawn/src/tint/utils/rtti/castable.h \
+  ../../third_party/dawn/src/tint/utils/math/crc32.h \
+  ../../third_party/dawn/src/tint/utils/containers/vector.h \
+  ../../third_party/dawn/src/tint/utils/containers/slice.h \
+  ../../third_party/dawn/src/tint/utils/memory/bitcast.h \
+  ../../third_party/dawn/src/tint/utils/math/hash.h \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/binding_attribute.h \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/expression.h \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/group_attribute.h \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/type.h \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/templated_identifier.h \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/identifier.h \
+  ../../third_party/dawn/src/tint/utils/symbol/symbol.h

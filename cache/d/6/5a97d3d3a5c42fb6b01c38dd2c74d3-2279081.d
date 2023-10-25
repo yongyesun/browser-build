@@ -1,0 +1,19 @@
+obj/third_party/openscreen/src/util/util/digest_sign.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/openscreen/src/util/crypto/digest_sign.cc \
+  ../../third_party/openscreen/src/util/crypto/digest_sign.h \
+  ../../third_party/boringssl/src/include/openssl/evp.h \
+  ../../third_party/boringssl/src/include/openssl/base.h \
+  ../../third_party/boringssl/src/include/openssl/is_boringssl.h \
+  ../../third_party/boringssl/src/include/openssl/opensslconf.h \
+  ../../third_party/boringssl/src/include/openssl/target.h \
+  ../../third_party/boringssl/src/include/openssl/evp_errors.h \
+  ../../third_party/boringssl/src/include/openssl/thread.h \
+  ../../third_party/boringssl/src/include/openssl/aead.h \
+  ../../third_party/boringssl/src/include/openssl/base64.h \
+  ../../third_party/boringssl/src/include/openssl/cipher.h \
+  ../../third_party/boringssl/src/include/openssl/digest.h \
+  ../../third_party/boringssl/src/include/openssl/nid.h \
+  ../../third_party/openscreen/src/platform/base/error.h \
+  ../../third_party/openscreen/src/platform/base/macros.h \
+  ../../third_party/openscreen/src/platform/base/span.h

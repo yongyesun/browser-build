@@ -1,0 +1,25 @@
+obj/third_party/swiftshader/src/Vulkan/swiftshader_libvulkan/VkStringify.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/swiftshader/src/Vulkan/VkStringify.cpp \
+  ../../third_party/swiftshader/src/Vulkan/VkStringify.hpp \
+  ../../third_party/swiftshader/include/vulkan/vulkan_core.h \
+  ../../third_party/swiftshader/include/vulkan/vk_platform.h \
+  ../../third_party/swiftshader/include/vk_video/vulkan_video_codec_h264std.h \
+  ../../third_party/swiftshader/include/vk_video/vulkan_video_codecs_common.h \
+  ../../third_party/swiftshader/include/vk_video/vulkan_video_codec_h264std_decode.h \
+  ../../third_party/swiftshader/include/vk_video/vulkan_video_codec_h265std.h \
+  ../../third_party/swiftshader/include/vk_video/vulkan_video_codec_h265std_decode.h \
+  ../../third_party/swiftshader/src/System/Debug.hpp \
+  ../../third_party/swiftshader/include/vulkan/vk_google_filtering_precision.h \
+  ../../third_party/swiftshader/include/vulkan/vulkan.hpp \
+  ../../third_party/swiftshader/include/vulkan/vulkan.h \
+  ../../third_party/swiftshader/include/vulkan/vulkan_wayland.h \
+  ../../third_party/swiftshader/include/xcb/xcb.h \
+  ../../third_party/swiftshader/include/xcb/xproto.h \
+  ../../third_party/swiftshader/include/vulkan/vulkan_xcb.h \
+  ../../third_party/swiftshader/include/vulkan/vulkan_hpp_macros.hpp \
+  ../../third_party/swiftshader/include/vulkan/vulkan_enums.hpp \
+  ../../third_party/swiftshader/include/vulkan/vulkan_to_string.hpp \
+  ../../third_party/swiftshader/include/vulkan/vulkan_handles.hpp \
+  ../../third_party/swiftshader/include/vulkan/vulkan_structs.hpp \
+  ../../third_party/swiftshader/include/vulkan/vulkan_funcs.hpp

@@ -1,0 +1,23 @@
+obj/third_party/libxml/libxml_utils/libxml_utils.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/libxml/chromium/libxml_utils.cc \
+  ../../third_party/libxml/chromium/libxml_utils.h \
+  ../../third_party/libxml/src/include/libxml/xmlreader.h \
+  ../../third_party/libxml/linux/include/libxml/xmlversion.h \
+  ../../third_party/libxml/src/include/libxml/xmlexports.h \
+  ../../third_party/libxml/src/include/libxml/tree.h \
+  ../../third_party/libxml/src/include/libxml/xmlstring.h \
+  ../../third_party/libxml/src/include/libxml/xmlmemory.h \
+  ../../third_party/libxml/src/include/libxml/xmlregexp.h \
+  ../../third_party/libxml/src/include/libxml/xmlerror.h \
+  ../../third_party/libxml/src/include/libxml/xmlIO.h \
+  ../../third_party/libxml/src/include/libxml/encoding.h \
+  ../../third_party/libxml/src/include/libxml/parser.h \
+  ../../third_party/libxml/src/include/libxml/dict.h \
+  ../../third_party/libxml/src/include/libxml/hash.h \
+  ../../third_party/libxml/src/include/libxml/valid.h \
+  ../../third_party/libxml/src/include/libxml/list.h \
+  ../../third_party/libxml/src/include/libxml/xmlautomata.h \
+  ../../third_party/libxml/src/include/libxml/entities.h \
+  ../../third_party/libxml/src/include/libxml/SAX2.h \
+  ../../third_party/libxml/src/include/libxml/threads.h

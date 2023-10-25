@@ -1,0 +1,35 @@
+obj/third_party/perfetto/src/trace_processor/util/proto_to_args_parser/debug_annotation_parser.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/perfetto/src/trace_processor/util/debug_annotation_parser.cc \
+  ../../third_party/perfetto/src/trace_processor/util/debug_annotation_parser.h \
+  gen/third_party/perfetto/protos/perfetto/trace/track_event/debug_annotation.pbzero.h \
+  ../../third_party/perfetto/include/perfetto/protozero/field_writer.h \
+  ../../third_party/perfetto/include/perfetto/protozero/message.h \
+  ../../third_party/perfetto/include/perfetto/base/export.h \
+  ../../third_party/perfetto/include/perfetto/base/build_config.h \
+  gen/third_party/perfetto/build_config/perfetto_build_flags.h \
+  ../../third_party/perfetto/include/perfetto/public/abi/export.h \
+  ../../third_party/perfetto/include/perfetto/base/logging.h \
+  ../../third_party/perfetto/include/perfetto/base/compiler.h \
+  ../../third_party/perfetto/include/perfetto/public/compiler.h \
+  ../../third_party/perfetto/include/perfetto/protozero/contiguous_memory_range.h \
+  ../../third_party/perfetto/include/perfetto/protozero/proto_utils.h \
+  ../../third_party/perfetto/include/perfetto/public/pb_utils.h \
+  ../../third_party/perfetto/include/perfetto/protozero/scattered_stream_writer.h \
+  ../../third_party/perfetto/include/perfetto/protozero/packed_repeated_fields.h \
+  ../../third_party/perfetto/include/perfetto/protozero/proto_decoder.h \
+  ../../third_party/perfetto/include/perfetto/protozero/field.h \
+  ../../third_party/perfetto/src/trace_processor/util/proto_to_args_parser.h \
+  ../../third_party/perfetto/include/perfetto/base/status.h \
+  gen/third_party/perfetto/protos/perfetto/trace/interned_data/interned_data.pbzero.h \
+  ../../third_party/perfetto/src/trace_processor/util/descriptors.h \
+  gen/third_party/perfetto/protos/perfetto/common/descriptor.pbzero.h \
+  ../../third_party/perfetto/src/trace_processor/util/interned_message_view.h \
+  ../../third_party/perfetto/include/perfetto/ext/base/flat_hash_map.h \
+  ../../third_party/perfetto/include/perfetto/ext/base/hash.h \
+  ../../third_party/perfetto/include/perfetto/ext/base/utils.h \
+  ../../third_party/perfetto/include/perfetto/ext/base/sys_types.h \
+  ../../third_party/perfetto/include/perfetto/trace_processor/trace_blob_view.h \
+  ../../third_party/perfetto/include/perfetto/trace_processor/ref_counted.h \
+  ../../third_party/perfetto/include/perfetto/trace_processor/trace_blob.h \
+  gen/third_party/perfetto/protos/perfetto/trace/profiling/profile_common.pbzero.h

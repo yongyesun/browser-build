@@ -1,0 +1,22 @@
+obj/third_party/dawn/src/tint/utils/symbol/symbol/symbol_table.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/dawn/src/tint/utils/symbol/symbol_table.cc \
+  ../../third_party/dawn/src/tint/utils/symbol/symbol_table.h \
+  ../../third_party/dawn/src/tint/utils/containers/hashmap.h \
+  ../../third_party/dawn/src/tint/utils/containers/hashmap_base.h \
+  ../../third_party/dawn/src/tint/utils/containers/vector.h \
+  ../../third_party/dawn/src/tint/utils/containers/slice.h \
+  ../../third_party/dawn/src/tint/utils/ice/ice.h \
+  ../../third_party/dawn/src/tint/utils/macros/compiler.h \
+  ../../third_party/dawn/src/tint/utils/macros/concat.h \
+  ../../third_party/dawn/src/tint/utils/memory/bitcast.h \
+  ../../third_party/dawn/src/tint/utils/rtti/castable.h \
+  ../../third_party/dawn/src/tint/utils/math/crc32.h \
+  ../../third_party/dawn/src/tint/utils/traits/traits.h \
+  ../../third_party/dawn/src/tint/utils/math/hash.h \
+  ../../third_party/dawn/src/tint/utils/memory/bump_allocator.h \
+  ../../third_party/dawn/src/tint/utils/math/math.h \
+  ../../third_party/dawn/src/tint/utils/symbol/symbol.h \
+  ../../third_party/dawn/src/tint/utils/id/generation_id.h \
+  ../../third_party/dawn/src/tint/utils/text/string_stream.h \
+  ../../third_party/dawn/src/tint/utils/text/unicode.h

@@ -1,0 +1,26 @@
+obj/third_party/perfetto/src/tracing/client_api_without_backends/debug_annotation.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/perfetto/src/tracing/debug_annotation.cc \
+  ../../third_party/perfetto/include/perfetto/tracing/debug_annotation.h \
+  ../../third_party/perfetto/include/perfetto/base/export.h \
+  ../../third_party/perfetto/include/perfetto/base/build_config.h \
+  gen/third_party/perfetto/build_config/perfetto_build_flags.h \
+  ../../third_party/perfetto/include/perfetto/public/abi/export.h \
+  ../../third_party/perfetto/include/perfetto/tracing/traced_value_forward.h \
+  gen/third_party/perfetto/protos/perfetto/trace/track_event/debug_annotation.pbzero.h \
+  ../../third_party/perfetto/include/perfetto/protozero/field_writer.h \
+  ../../third_party/perfetto/include/perfetto/protozero/message.h \
+  ../../third_party/perfetto/include/perfetto/base/logging.h \
+  ../../third_party/perfetto/include/perfetto/base/compiler.h \
+  ../../third_party/perfetto/include/perfetto/public/compiler.h \
+  ../../third_party/perfetto/include/perfetto/protozero/contiguous_memory_range.h \
+  ../../third_party/perfetto/include/perfetto/protozero/proto_utils.h \
+  ../../third_party/perfetto/include/perfetto/public/pb_utils.h \
+  ../../third_party/perfetto/include/perfetto/protozero/scattered_stream_writer.h \
+  ../../third_party/perfetto/include/perfetto/protozero/packed_repeated_fields.h \
+  ../../third_party/perfetto/include/perfetto/protozero/proto_decoder.h \
+  ../../third_party/perfetto/include/perfetto/protozero/field.h \
+  ../../third_party/perfetto/include/perfetto/tracing/traced_value.h \
+  ../../third_party/perfetto/include/perfetto/base/template_util.h \
+  ../../third_party/perfetto/include/perfetto/tracing/internal/checked_scope.h \
+  ../../third_party/perfetto/include/perfetto/tracing/string_helpers.h
