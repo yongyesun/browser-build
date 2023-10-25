@@ -1,0 +1,26 @@
+obj/third_party/dawn/src/tint/lang/wgsl/ast/ast/diagnostic_control.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/diagnostic_control.cc \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/diagnostic_control.h \
+  ../../third_party/dawn/src/tint/lang/wgsl/diagnostic_severity.h \
+  ../../third_party/dawn/src/tint/lang/wgsl/diagnostic_rule.h \
+  ../../third_party/dawn/src/tint/utils/traits/traits.h \
+  ../../third_party/dawn/src/tint/utils/diagnostic/diagnostic.h \
+  ../../third_party/dawn/src/tint/utils/containers/vector.h \
+  ../../third_party/dawn/src/tint/utils/containers/slice.h \
+  ../../third_party/dawn/src/tint/utils/ice/ice.h \
+  ../../third_party/dawn/src/tint/utils/macros/compiler.h \
+  ../../third_party/dawn/src/tint/utils/macros/concat.h \
+  ../../third_party/dawn/src/tint/utils/memory/bitcast.h \
+  ../../third_party/dawn/src/tint/utils/rtti/castable.h \
+  ../../third_party/dawn/src/tint/utils/math/crc32.h \
+  ../../third_party/dawn/src/tint/utils/math/hash.h \
+  ../../third_party/dawn/src/tint/utils/diagnostic/source.h \
+  ../../third_party/dawn/src/tint/utils/text/string_stream.h \
+  ../../third_party/dawn/src/tint/utils/text/unicode.h \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/identifier.h \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/node.h \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/node_id.h \
+  ../../third_party/dawn/src/tint/utils/id/generation_id.h \
+  ../../third_party/dawn/src/tint/utils/symbol/symbol.h \
+  ../../third_party/dawn/src/tint/lang/wgsl/ast/templated_identifier.h

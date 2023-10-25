@@ -1,0 +1,9 @@
+obj/third_party/libwebp/libwebp_sharpyuv/sharpyuv.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/libwebp/src/sharpyuv/sharpyuv.c \
+  ../../third_party/libwebp/src/sharpyuv/sharpyuv.h \
+  ../../third_party/libwebp/src/src/webp/types.h \
+  ../../third_party/libwebp/src/sharpyuv/sharpyuv_cpu.h \
+  ../../third_party/libwebp/src/src/dsp/cpu.h \
+  ../../third_party/libwebp/src/sharpyuv/sharpyuv_dsp.h \
+  ../../third_party/libwebp/src/sharpyuv/sharpyuv_gamma.h

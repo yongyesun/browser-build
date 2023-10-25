@@ -1,0 +1,26 @@
+obj/third_party/dawn/src/tint/lang/spirv/writer/common/common/option_builder.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/dawn/src/tint/lang/spirv/writer/common/option_builder.cc \
+  ../../third_party/dawn/src/tint/lang/spirv/writer/common/option_builder.h \
+  ../../third_party/dawn/src/tint/api/common/binding_point.h \
+  ../../third_party/dawn/src/tint/utils/math/hash.h \
+  ../../third_party/dawn/src/tint/utils/math/crc32.h \
+  ../../third_party/dawn/src/tint/utils/reflection/reflection.h \
+  ../../third_party/dawn/src/tint/utils/macros/concat.h \
+  ../../third_party/dawn/src/tint/utils/macros/foreach.h \
+  ../../third_party/dawn/src/tint/utils/text/string_stream.h \
+  ../../third_party/dawn/src/tint/utils/text/unicode.h \
+  ../../third_party/dawn/src/tint/utils/traits/traits.h \
+  ../../third_party/dawn/src/tint/api/options/external_texture.h \
+  ../../third_party/dawn/src/tint/lang/spirv/writer/common/options.h \
+  ../../third_party/dawn/src/tint/utils/diagnostic/diagnostic.h \
+  ../../third_party/dawn/src/tint/utils/containers/vector.h \
+  ../../third_party/dawn/src/tint/utils/containers/slice.h \
+  ../../third_party/dawn/src/tint/utils/ice/ice.h \
+  ../../third_party/dawn/src/tint/utils/macros/compiler.h \
+  ../../third_party/dawn/src/tint/utils/memory/bitcast.h \
+  ../../third_party/dawn/src/tint/utils/rtti/castable.h \
+  ../../third_party/dawn/src/tint/utils/diagnostic/source.h \
+  ../../third_party/dawn/src/tint/utils/containers/hashset.h \
+  ../../third_party/dawn/src/tint/utils/containers/hashmap.h \
+  ../../third_party/dawn/src/tint/utils/containers/hashmap_base.h

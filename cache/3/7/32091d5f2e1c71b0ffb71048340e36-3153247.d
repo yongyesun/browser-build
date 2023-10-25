@@ -1,0 +1,27 @@
+obj/third_party/dawn/src/tint/lang/core/ir/ir/operand_instruction.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/dawn/src/tint/lang/core/ir/operand_instruction.cc \
+  ../../third_party/dawn/src/tint/lang/core/ir/operand_instruction.h \
+  ../../third_party/dawn/src/tint/lang/core/ir/instruction.h \
+  ../../third_party/dawn/src/tint/lang/core/ir/instruction_result.h \
+  ../../third_party/dawn/src/tint/lang/core/ir/value.h \
+  ../../third_party/dawn/src/tint/lang/core/type/type.h \
+  ../../third_party/dawn/src/tint/lang/core/type/clone_context.h \
+  ../../third_party/dawn/src/tint/lang/core/type/unique_node.h \
+  ../../third_party/dawn/src/tint/lang/core/type/node.h \
+  ../../third_party/dawn/src/tint/utils/rtti/castable.h \
+  ../../third_party/dawn/src/tint/utils/math/crc32.h \
+  ../../third_party/dawn/src/tint/utils/traits/traits.h \
+  ../../third_party/dawn/src/tint/utils/containers/enum_set.h \
+  ../../third_party/dawn/src/tint/utils/containers/vector.h \
+  ../../third_party/dawn/src/tint/utils/containers/slice.h \
+  ../../third_party/dawn/src/tint/utils/ice/ice.h \
+  ../../third_party/dawn/src/tint/utils/macros/compiler.h \
+  ../../third_party/dawn/src/tint/utils/macros/concat.h \
+  ../../third_party/dawn/src/tint/utils/memory/bitcast.h \
+  ../../third_party/dawn/src/tint/utils/math/hash.h \
+  ../../third_party/dawn/src/tint/utils/containers/hashset.h \
+  ../../third_party/dawn/src/tint/utils/containers/hashmap.h \
+  ../../third_party/dawn/src/tint/utils/containers/hashmap_base.h \
+  ../../third_party/dawn/src/tint/utils/text/string_stream.h \
+  ../../third_party/dawn/src/tint/utils/text/unicode.h

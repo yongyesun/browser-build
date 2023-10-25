@@ -1,0 +1,19 @@
+obj/third_party/dawn/src/tint/lang/glsl/writer/raise/raise/raise.o: \
+  ../../tools/cfi/ignores.txt \
+  ../../third_party/dawn/src/tint/lang/glsl/writer/raise/raise.cc \
+  ../../third_party/dawn/src/tint/lang/glsl/writer/raise/raise.h \
+  ../../third_party/dawn/src/tint/utils/result/result.h \
+  ../../third_party/dawn/src/tint/utils/diagnostic/diagnostic.h \
+  ../../third_party/dawn/src/tint/utils/containers/vector.h \
+  ../../third_party/dawn/src/tint/utils/containers/slice.h \
+  ../../third_party/dawn/src/tint/utils/ice/ice.h \
+  ../../third_party/dawn/src/tint/utils/macros/compiler.h \
+  ../../third_party/dawn/src/tint/utils/macros/concat.h \
+  ../../third_party/dawn/src/tint/utils/memory/bitcast.h \
+  ../../third_party/dawn/src/tint/utils/rtti/castable.h \
+  ../../third_party/dawn/src/tint/utils/math/crc32.h \
+  ../../third_party/dawn/src/tint/utils/traits/traits.h \
+  ../../third_party/dawn/src/tint/utils/math/hash.h \
+  ../../third_party/dawn/src/tint/utils/diagnostic/source.h \
+  ../../third_party/dawn/src/tint/utils/text/string_stream.h \
+  ../../third_party/dawn/src/tint/utils/text/unicode.h
