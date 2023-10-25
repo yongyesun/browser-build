@@ -20,7 +20,7 @@ jobs:
     - name: Maximize build space
       uses: easimon/maximize-build-space@master
       with:
-        root-reserve-mb: 1536
+        root-reserve-mb: 2048
         swap-size-mb: 1024
         remove-dotnet: 'true'
         remove-android: 'true'
@@ -40,7 +40,6 @@ jobs:
     - run: df -h
     - run: chmod -R a+x $ROOT/script/
     - run: $ROOT/script/create_ccache_config.sh
-    - run: df -h
     - run: $ROOT/script/download_depot.sh        
     - run: $ROOT/script/download_src.sh    
     - run: $ROOT/script/gen.sh
@@ -54,6 +53,7 @@ jobs:
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
     
+    - run: ccache -s
     - run: $ROOT/script/build_step.sh
     - run: df -h
     - run: ccache -s
