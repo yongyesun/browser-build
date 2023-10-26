@@ -5,6 +5,8 @@ fetch --nohooks --no-history chromium
 sed -i 's/"custom_vars": {/"custom_vars": {\r\n\t"checkout_pgo_profiles": True,\r\n    /g' .gclient
 sed -i '$a target_os = ['\''win'\'']' .gclient
 cat $ROOT/chromium/.gclient
+mkdir $ROOT/chromium/win
+wget -P $ROOT/chromium/win https://github.com/Alex313031/Snippets/releases/download/10.1.22621.1778-1/7eee888925.zip
 cd $ROOT/chromium/src
 cd third_party/ffmpeg
 git am $ROOT/hevc/add-hevc-ffmpeg-decoder-parser.patch
