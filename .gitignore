@@ -1,7 +1,0 @@
-/.cipd
-/.gclient
-/.gclient_entries
-/depot_tools
-/run
-/src
-/script/prepare.sh
