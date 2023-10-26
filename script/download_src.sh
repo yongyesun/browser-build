@@ -7,6 +7,8 @@ sed -i '$a target_os = ['\''win'\'']' .gclient
 cat $ROOT/chromium/.gclient
 mkdir $ROOT/chromium/win
 wget -P $ROOT/chromium/win https://github.com/Alex313031/Snippets/releases/download/10.1.22621.1778-1/7eee888925.zip
+export DEPOT_TOOLS_WIN_TOOLCHAIN_BASE_URL=$ROOT/chromium/win/7eee888925.zip
+export GYP_MSVS_HASH_27370823e7=7eee888925
 cd $ROOT/chromium/src
 cd third_party/ffmpeg
 git am $ROOT/hevc/add-hevc-ffmpeg-decoder-parser.patch
