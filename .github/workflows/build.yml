@@ -38,7 +38,7 @@ jobs:
 
     - run: lscpu
     - run: df -h
-    - run: cd $ROOT/cache && du -h && ( ls -lR| grep "^-" | wc -l )
+    - run: cd $ROOT/cache && du -h && ( ls -lR | grep "^-" | wc -l )
     - run: chmod -R a+x $ROOT/script/
     - run: $ROOT/script/create_ccache_config.sh
     - run: $ROOT/script/download_depot.sh        
