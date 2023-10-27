@@ -1,0 +1,22 @@
+clang_x64/obj/third_party/boringssl/boringssl/signature_algorithm.o: \
+  ../../third_party/boringssl/src/pki/signature_algorithm.cc \
+  ../../third_party/boringssl/src/pki/signature_algorithm.h \
+  ../../third_party/boringssl/src/pki/fillins/openssl_util.h \
+  ../../third_party/boringssl/src/include/openssl/base.h \
+  ../../third_party/boringssl/src/include/openssl/is_boringssl.h \
+  ../../third_party/boringssl/src/include/openssl/opensslconf.h \
+  ../../third_party/boringssl/src/include/openssl/target.h \
+  ../../third_party/boringssl/src/include/openssl/evp.h \
+  ../../third_party/boringssl/src/include/openssl/evp_errors.h \
+  ../../third_party/boringssl/src/include/openssl/thread.h \
+  ../../third_party/boringssl/src/include/openssl/aead.h \
+  ../../third_party/boringssl/src/include/openssl/base64.h \
+  ../../third_party/boringssl/src/include/openssl/cipher.h \
+  ../../third_party/boringssl/src/include/openssl/digest.h \
+  ../../third_party/boringssl/src/include/openssl/nid.h \
+  ../../third_party/boringssl/src/pki/input.h \
+  ../../third_party/boringssl/src/include/openssl/span.h \
+  ../../third_party/boringssl/src/pki/parse_values.h \
+  ../../third_party/boringssl/src/pki/parser.h \
+  ../../third_party/boringssl/src/pki/tag.h \
+  ../../third_party/boringssl/src/include/openssl/bytestring.h
