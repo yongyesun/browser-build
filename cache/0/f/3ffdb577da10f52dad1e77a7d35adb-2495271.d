@@ -1,6 +1,0 @@
-obj/third_party/dawn/src/tint/utils/rtti/rtti/castable.o: \
-  ../../tools/cfi/ignores.txt \
-  ../../third_party/dawn/src/tint/utils/rtti/castable.cc \
-  ../../third_party/dawn/src/tint/utils/rtti/castable.h \
-  ../../third_party/dawn/src/tint/utils/math/crc32.h \
-  ../../third_party/dawn/src/tint/utils/traits/traits.h
