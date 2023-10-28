@@ -11,4 +11,4 @@ echo "hash_dir = false" >> $HOME/.ccache/ccache.conf
 echo "CCACHE_SLOPPINESS = include_file_mtime" >> $HOME/.ccache/ccache.conf
 #git clone --depth=1 https://github.com/AoEiuV020/chromium-ccache-arm64.git $ROOT/cache
 ls -a $HOME/.ccache && cat $HOME/.ccache/ccache.conf
-cd $ROOT/cache/ || mkdir -p $ROOT/cache/
+mkdir -p $ROOT/cache/
