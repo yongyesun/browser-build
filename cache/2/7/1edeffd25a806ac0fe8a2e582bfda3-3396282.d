@@ -1,0 +1,36 @@
+clang_x64/obj/third_party/dawn/third_party/gn/dxc/Support/TargetRegistry.o: \
+  ../../third_party/dawn/third_party/dxc/lib/Support/TargetRegistry.cpp \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/TargetRegistry.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm-c/Disassembler.h \
+  ../../third_party/dawn/third_party/dxc/include/dxc/WinAdapter.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/llvm_assert/cassert \
+  ../../third_party/dawn/third_party/dxc/include/llvm/llvm_assert/assert.h \
+  clang_x64/gen/third_party/dawn/third_party/gn/dxc/include/llvm/Support/DataTypes.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/ADT/Triple.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/ADT/Twine.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/ADT/SmallVector.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/ADT/iterator_range.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/AlignOf.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/Compiler.h \
+  clang_x64/gen/third_party/dawn/third_party/gn/dxc/include/llvm/Config/llvm-config.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/MathExtras.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/SwapByteOrder.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/type_traits.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/ADT/StringRef.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/ErrorHandling.h \
+  clang_x64/gen/third_party/dawn/third_party/gn/dxc/include/llvm/Config/abi-breaking.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/CodeGen.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm-c/TargetMachine.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm-c/Core.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm-c/Support.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm-c/Target.h \
+  clang_x64/gen/third_party/dawn/third_party/gn/dxc/include/llvm/Config/Targets.def \
+  clang_x64/gen/third_party/dawn/third_party/gn/dxc/include/llvm/Config/AsmPrinters.def \
+  clang_x64/gen/third_party/dawn/third_party/gn/dxc/include/llvm/Config/AsmParsers.def \
+  clang_x64/gen/third_party/dawn/third_party/gn/dxc/include/llvm/Config/Disassemblers.def \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/FormattedStream.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/raw_ostream.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/ADT/STLExtras.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/ADT/Optional.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/ADT/None.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/ADT/iterator.h
