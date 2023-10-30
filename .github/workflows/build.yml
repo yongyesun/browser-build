@@ -3,9 +3,9 @@ env:
     TZ: Asia/Shanghai
 
 on:
-  schedule:
+  #schedule:
       # 每6小时跑一遍，第5小时会用kill打断并保存编译缓存ccache，
-    - cron:  '0 0,4,8,12,16,20 * * *' # 时区对cron无效，所以要提前8个小时，
+    #- cron:  '0 0,4,8,12,16,20 * * *' # 时区对cron无效，所以要提前8个小时，
   workflow_dispatch:
     inputs:
       ssh:
