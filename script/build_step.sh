@@ -6,7 +6,7 @@ ls -a /usr/local/bin/
 #ln -s /usr/local/bin/ccache /usr/local/bin/clang++
 ls -a $HOME/.ccache && cat $HOME/.ccache/ccache.conf
 cd $ROOT/chromium/src
-autoninja -C out/Release64 chrome || echo ninja canceld code $?
+autoninja -C out/Release64 chrome -j 1 || echo ninja canceld code $?
 COUNT=$(ps -C sleep --no-header |wc -l)
 if [ $COUNT -eq 0 ]
 then
