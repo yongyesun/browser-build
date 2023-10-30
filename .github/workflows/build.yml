@@ -58,7 +58,7 @@ jobs:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
     
     - run: ccache -s
-    - run: $ROOT/script/build_step.sh chrome/app
+    - run: $ROOT/script/build_step.sh chrome/app:generated_resources_grit
     - run: $ROOT/script/build_step.sh chrome
     - run: df -h
     - run: ccache -s
