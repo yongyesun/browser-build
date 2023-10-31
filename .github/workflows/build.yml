@@ -3,9 +3,9 @@ env:
     TZ: Asia/Shanghai
 
 on:
-  schedule:
+  #schedule:
       # 每6小时跑一遍，第5小时会用kill打断并保存编译缓存ccache，
-    - cron:  '0 4,10,16,22 * * *' # 时区对cron无效，所以要提前8个小时，
+    #- cron:  '0 4,10,16,22 * * *' # 时区对cron无效，所以要提前8个小时，
   workflow_dispatch:
     inputs:
       ssh:
@@ -58,6 +58,7 @@ jobs:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
     
     - run: ccache -s
+    - run: $ROOT/script/build_step.sh build/toolchain/linux:clang_x64
     - run: $ROOT/script/build_step.sh chrome/app:generated_resources_grit
     - run: $ROOT/script/build_step.sh chrome
     - run: df -h
