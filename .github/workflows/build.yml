@@ -58,7 +58,13 @@ jobs:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
     
     - run: ccache -s
-    - run: $ROOT/script/build_step.sh build/toolchain/linux:clang_x64
+    - run: $ROOT/script/build_step.sh third_party/perfetto/src/trace_processor/tables:tables_python
+    - run: $ROOT/script/build_step.sh third_party/perfetto/src/trace_processor/importers/proto:gen_cc_chrome_track_event_descriptor
+    - run: $ROOT/script/build_step.sh url:buildflags
+    - run: $ROOT/script/build_step.sh v8:v8_dump_build_config
+    - run: $ROOT/script/build_step.sh build/rust/std:find_stdlib
+    - run: $ROOT/script/build_step.sh v8/src/inspector:protocol_generated_sources
+    - run: $ROOT/script/build_step.sh net:net_resources_grit
     - run: $ROOT/script/build_step.sh chrome/app:generated_resources_grit
     - run: $ROOT/script/build_step.sh chrome
     - run: df -h
