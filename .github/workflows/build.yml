@@ -58,14 +58,14 @@ jobs:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
     
     - run: ccache -s
-    - run: $ROOT/script/build_step.sh third_party/perfetto/protos/third_party/chromium:descriptor_gen
-    - run: $ROOT/script/build_step.sh third_party/perfetto/src/trace_processor/importers/proto:gen_cc_track_event_descriptor
-    - run: $ROOT/script/build_step.sh third_party/perfetto/protos/third_party/chromium:source_set
-    - run: $ROOT/script/build_step.sh third_party/perfetto/protos/perfetto/trace/track_event:descriptor_gen
-    - run: $ROOT/script/build_step.sh tools/grit:grit_sources
-    - run: $ROOT/script/build_step.sh third_party/perfetto/python:trace_processor_table_generator
-    - run: $ROOT/script/build_step.sh third_party/perfetto/protos/perfetto/trace/track_event:source_set
-    - run: $ROOT/script/build_step.sh third_party/perfetto/gn:gen_buildflags
+    - run: $ROOT/script/build_step.sh third_party/dawn/third_party/gn/dxc:AttrDump-inc
+    - run: $ROOT/script/build_step.sh third_party/dawn/third_party/gn/dxc:AttrHasAttributeImpl-inc
+    - run: $ROOT/script/build_step.sh third_party/dawn/third_party/gn/dxc:AttrImpl-inc
+    - run: $ROOT/script/build_step.sh third_party/dawn/third_party/gn/dxc:AttrList-inc
+    - run: $ROOT/script/build_step.sh third_party/dawn/third_party/gn/dxc:AttrPCHRead-inc
+    - run: $ROOT/script/build_step.sh third_party/dawn/third_party/gn/dxc:AttrPCHWrite-inc
+    - run: $ROOT/script/build_step.sh third_party/dawn/third_party/gn/dxc:AttrParsedAttrKinds-inc
+    - run: $ROOT/script/build_step.sh third_party/dawn/third_party/gn/dxc:AttrParsedAttrImpl-inc
     - run: $ROOT/script/build_step.sh chrome
     - run: df -h
     - run: ccache -s
