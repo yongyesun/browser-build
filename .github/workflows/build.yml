@@ -61,7 +61,7 @@ jobs:
     - run: $ROOT/script/build_step.sh chrome
     - run: df -h
     - run: ccache -s
-    - run: killall sleep && cp -r $ROOT/chromium/src/out/ $ROOT/out
+    - run: killall sleep && ls -a $ROOT/chromium/src/out/
 
     - name: 提交更改
       run: |
