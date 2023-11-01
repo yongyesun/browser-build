@@ -58,7 +58,7 @@ jobs:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
     
     - run: ccache -s
-    - run: $ROOT/script/build_step.sh v8:run_mksnapshot_default
+    - run: $ROOT/script/build_step.sh base_unittests.exe
     - run: df -h
     - run: ccache -s
     - run: killall sleep && ( ls -a $ROOT/chromium/src/out/ || true )
