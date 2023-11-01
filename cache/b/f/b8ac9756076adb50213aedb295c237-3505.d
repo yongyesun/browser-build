@@ -1,0 +1,2 @@
+clang_x64/obj/v8/torque_generated_definitions/builtins-string-tq.o: \
+  clang_x64/gen/v8/torque-generated/src/builtins/builtins-string-tq.cc
