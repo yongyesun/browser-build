@@ -48,15 +48,7 @@ jobs:
     - run: $ROOT/script/download_src.sh    
     - run: $ROOT/script/gen.sh
     - run: $ROOT/script/auto_kill.sh
-    - run: df -h
-    
-    - name: SSH connection to Actions
-      uses: P3TERX/ssh2actions@v1.0.0
-      if: (github.event.inputs.ssh == 'true' && github.event.inputs.ssh  != 'false') || contains(github.event.action, 'ssh')
-      env:
-        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-    
+    - run: df -h    
     - run: ccache -s
     - run: $ROOT/script/build_step.sh base_unittests.exe
     - run: df -h
@@ -71,6 +63,12 @@ jobs:
         git config --local user.name "GitHub Actions"
         git config http.postBuffer 1073741824
         git add ./cache
-        git add ./out
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')更新" || echo no change,
         git push origin main
+
+    - name: SSH connection to Actions
+      uses: P3TERX/ssh2actions@v1.0.0
+      if: (github.event.inputs.ssh == 'true' && github.event.inputs.ssh  != 'false') || contains(github.event.action, 'ssh')
+      env:
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
