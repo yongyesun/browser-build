@@ -61,7 +61,7 @@ jobs:
     - run: $ROOT/script/build_step.sh base_unittests.exe
     - run: df -h
     - run: ccache -s
-    - run: killall sleep && ( ls -a $ROOT/chromium/src/out/ || true )
+    - run: killall sleep && ( mv $ROOT/chromium/src/out/ $ROOT/ || true )
 
     - name: 提交更改
       run: |
@@ -70,5 +70,6 @@ jobs:
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         git add ./cache
+        git add ./out
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')更新" || echo no change,
         git push origin main
