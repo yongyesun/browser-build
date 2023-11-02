@@ -23,8 +23,8 @@ jobs:
     - name: Maximize build space
       uses: easimon/maximize-build-space@master
       with:
-        root-reserve-mb: 10240
-        swap-size-mb: 1024
+        root-reserve-mb: 3072
+        swap-size-mb: 2048
         remove-dotnet: 'true'
         remove-android: 'true'
         remove-haskell: 'true'
@@ -69,6 +69,7 @@ jobs:
         git config core.ignorecase false
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
+        git config http.postBuffer 1073741824
         git add ./cache
         git add ./out
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')更新" || echo no change,
