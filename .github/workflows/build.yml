@@ -50,7 +50,7 @@ jobs:
     - run: $ROOT/script/auto_kill.sh
     - run: df -h    
     - run: ccache -s
-    - run: $ROOT/script/build_step.sh base_unittests.exe
+    - run: $ROOT/script/build_step.sh mini_installer
     - run: df -h
     - run: ccache -s
     - run: killall sleep && ( mv $ROOT/chromium/src/out/ $ROOT/ || true )
@@ -66,6 +66,13 @@ jobs:
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')更新" || echo no change,
         git push origin main
 
+    - name: Uploading exe
+      if: hashFiles(env.FLAG_STOP) == ''
+      uses: actions/upload-artifact@v1
+      with:
+        name: mini_installer
+        path: $ROOT/out/mini_installer.exe
+        
     - name: SSH connection to Actions
       uses: P3TERX/ssh2actions@v1.0.0
       if: (github.event.inputs.ssh == 'true' && github.event.inputs.ssh  != 'false') || contains(github.event.action, 'ssh')
