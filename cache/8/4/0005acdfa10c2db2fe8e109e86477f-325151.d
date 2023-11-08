@@ -1,0 +1,12 @@
+clang_x64/obj/base/allocator/partition_allocator/src/partition_alloc/allocator_base/rand_util.o: \
+  ../../base/allocator/partition_allocator/src/partition_alloc/partition_alloc_base/rand_util.cc \
+  ../../base/allocator/partition_allocator/src/partition_alloc/partition_alloc_base/rand_util.h \
+  ../../base/allocator/partition_allocator/src/partition_alloc/partition_alloc_base/component_export.h \
+  ../../build/build_config.h ../../build/buildflag.h \
+  ../../base/allocator/partition_allocator/src/partition_alloc/partition_alloc_base/check.h \
+  ../../base/allocator/partition_allocator/src/partition_alloc/partition_alloc_base/compiler_specific.h \
+  clang_x64/gen/base/allocator/partition_allocator/src/partition_alloc/partition_alloc_base/debug/debugging_buildflags.h \
+  ../../base/allocator/partition_allocator/src/partition_alloc/partition_alloc_base/immediate_crash.h \
+  ../../base/allocator/partition_allocator/src/partition_alloc/partition_alloc_base/log_message.h \
+  ../../base/allocator/partition_allocator/src/partition_alloc/partition_alloc_base/scoped_clear_last_error.h \
+  ../../base/allocator/partition_allocator/src/partition_alloc/partition_alloc_base/strings/cstring_builder.h

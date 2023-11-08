@@ -1,0 +1,32 @@
+clang_x64/obj/third_party/dawn/third_party/gn/dxc/Support/ErrorHandling.o: \
+  ../../third_party/dawn/third_party/dxc/lib/Support/ErrorHandling.cpp \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/ErrorHandling.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/ADT/StringRef.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/llvm_assert/cassert \
+  ../../third_party/dawn/third_party/dxc/include/llvm/llvm_assert/assert.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/Compiler.h \
+  clang_x64/gen/third_party/dawn/third_party/gn/dxc/include/llvm/Config/llvm-config.h \
+  clang_x64/gen/third_party/dawn/third_party/gn/dxc/include/llvm/Config/abi-breaking.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm-c/Core.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm-c/Support.h \
+  clang_x64/gen/third_party/dawn/third_party/gn/dxc/include/llvm/Support/DataTypes.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/ADT/SmallVector.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/ADT/iterator_range.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/AlignOf.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/MathExtras.h \
+  ../../third_party/dawn/third_party/dxc/include/dxc/WinAdapter.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/SwapByteOrder.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/type_traits.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/ADT/Twine.h \
+  clang_x64/gen/third_party/dawn/third_party/gn/dxc/include/llvm/Config/config.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/Debug.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/Errc.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/ManagedStatic.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/Mutex.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/Threading.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/MutexGuard.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/Signals.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/WindowsError.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/raw_ostream.h \
+  ../../third_party/dawn/third_party/dxc/include/dxc/Support/exception.h \
+  ../../third_party/dawn/third_party/dxc/include/dxc/Support/ErrorCodes.h

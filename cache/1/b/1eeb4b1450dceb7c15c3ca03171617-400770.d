@@ -1,0 +1,22 @@
+clang_x64/obj/third_party/zstd/decompress/zstd_decompress_block.o: \
+  ../../third_party/zstd/src/lib/decompress/zstd_decompress_block.c \
+  ../../third_party/zstd/src/lib/decompress/../common/zstd_deps.h \
+  ../../third_party/zstd/src/lib/decompress/../common/compiler.h \
+  ../../third_party/zstd/src/lib/decompress/../common/portability_macros.h \
+  ../../third_party/zstd/src/lib/decompress/../common/cpu.h \
+  ../../third_party/zstd/src/lib/decompress/../common/mem.h \
+  ../../third_party/zstd/src/lib/decompress/../common/debug.h \
+  ../../third_party/zstd/src/lib/decompress/../common/fse.h \
+  ../../third_party/zstd/src/lib/decompress/../common/bitstream.h \
+  ../../third_party/zstd/src/lib/decompress/../common/error_private.h \
+  ../../third_party/zstd/src/lib/decompress/../common/../zstd_errors.h \
+  ../../third_party/zstd/src/lib/decompress/../common/bits.h \
+  ../../third_party/zstd/src/lib/decompress/../common/huf.h \
+  ../../third_party/zstd/src/lib/decompress/../common/zstd_internal.h \
+  ../../third_party/zstd/src/lib/decompress/../common/../zstd.h \
+  ../../third_party/zstd/src/lib/decompress/../common/xxhash.h \
+  ../../third_party/zstd/src/lib/decompress/../common/zstd_trace.h \
+  ../../third_party/zstd/src/lib/decompress/zstd_decompress_internal.h \
+  ../../third_party/zstd/src/lib/decompress/zstd_ddict.h \
+  ../../third_party/zstd/src/lib/decompress/../zstd.h \
+  ../../third_party/zstd/src/lib/decompress/zstd_decompress_block.h

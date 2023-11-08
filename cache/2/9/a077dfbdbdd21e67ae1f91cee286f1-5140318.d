@@ -1,0 +1,38 @@
+clang_x64/obj/skia/skia_core_and_effects/SkOpts.o: \
+  ../../third_party/skia/src/core/SkOpts.cpp \
+  ../../third_party/skia/src/core/SkOpts.h \
+  ../../third_party/skia/src/core/SkRasterPipelineOpList.h \
+  ../../third_party/skia/include/private/base/SkFeatures.h \
+  ../../third_party/skia/src/core/SkCpu.h \
+  ../../third_party/skia/include/core/SkTypes.h \
+  ../../third_party/skia/include/private/base/SkLoadUserConfig.h \
+  ../../third_party/skia/../../skia/config/SkUserConfig.h \
+  ../../base/component_export.h ../../skia/ext/skia_histogram.h \
+  ../../third_party/skia/include/private/base/SkAPI.h \
+  ../../third_party/skia/include/private/base/SkAssert.h \
+  ../../third_party/skia/include/private/base/SkAttributes.h \
+  ../../third_party/skia/include/private/base/SkDebug.h \
+  ../../third_party/skia/src/core/SkOptsTargets.h \
+  ../../third_party/skia/src/opts/SkOpts_SetTarget.h \
+  ../../third_party/skia/src/opts/SkRasterPipeline_opts.h \
+  ../../third_party/skia/include/private/base/SkMalloc.h \
+  ../../third_party/skia/modules/skcms/skcms.h \
+  ../../third_party/skia/modules/skcms/src/skcms_public.h \
+  ../../third_party/skia/src/base/SkUtils.h \
+  ../../third_party/skia/src/core/SkRasterPipeline.h \
+  ../../third_party/skia/include/core/SkColor.h \
+  ../../third_party/skia/include/core/SkAlphaType.h \
+  ../../third_party/skia/include/core/SkScalar.h \
+  ../../third_party/skia/include/private/base/SkFloatingPoint.h \
+  ../../third_party/skia/include/private/base/SkFloatBits.h \
+  ../../third_party/skia/include/private/base/SkMath.h \
+  ../../third_party/skia/include/private/base/SkCPUTypes.h \
+  ../../third_party/skia/include/private/base/SkMacros.h \
+  ../../third_party/skia/src/base/SkArenaAlloc.h \
+  ../../third_party/skia/include/private/base/SkTFitsIn.h \
+  ../../third_party/skia/include/private/base/SkTo.h \
+  ../../third_party/skia/src/base/SkASAN.h \
+  ../../third_party/skia/src/core/SkRasterPipelineOpContexts.h \
+  ../../third_party/skia/src/core/SkRasterPipelineContextUtils.h \
+  ../../third_party/skia/src/sksl/tracing/SkSLTraceHook.h \
+  ../../third_party/skia/src/opts/SkOpts_RestoreTarget.h

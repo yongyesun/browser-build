@@ -1,0 +1,23 @@
+clang_x64/obj/third_party/dawn/third_party/gn/dxc/Support/CrashRecoveryContext.o: \
+  ../../third_party/dawn/third_party/dxc/lib/Support/CrashRecoveryContext.cpp \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/CrashRecoveryContext.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/ADT/STLExtras.h \
+  ../../third_party/dawn/third_party/dxc/include/dxc/WinAdapter.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/llvm_assert/cassert \
+  ../../third_party/dawn/third_party/dxc/include/llvm/llvm_assert/assert.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/Compiler.h \
+  clang_x64/gen/third_party/dawn/third_party/gn/dxc/include/llvm/Config/llvm-config.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/ADT/Optional.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/ADT/None.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/AlignOf.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/ADT/iterator.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/ADT/iterator_range.h \
+  clang_x64/gen/third_party/dawn/third_party/gn/dxc/include/llvm/Config/config.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/ErrorHandling.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/ADT/StringRef.h \
+  clang_x64/gen/third_party/dawn/third_party/gn/dxc/include/llvm/Config/abi-breaking.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/ManagedStatic.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/Mutex.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/Threading.h \
+  ../../third_party/dawn/third_party/dxc/include/llvm/Support/ThreadLocal.h \
+  clang_x64/gen/third_party/dawn/third_party/gn/dxc/include/llvm/Support/DataTypes.h
