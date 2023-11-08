@@ -24,5 +24,5 @@ then
   git add "./cache"
   git commit -m "$(date '+%Y-%m-%d %H:%M:%S')更新" || echo no change,
   #git pull origin main
-  git push origin main
+  git push origin main || ( git pull origin main && git push origin main ) 
 fi
