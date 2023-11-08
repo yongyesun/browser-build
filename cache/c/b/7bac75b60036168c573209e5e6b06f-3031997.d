@@ -1,0 +1,25 @@
+clang_x64/obj/third_party/abseil-cpp/absl/base/base/sysinfo.o: \
+  ../../third_party/abseil-cpp/absl/base/internal/sysinfo.cc \
+  ../../third_party/abseil-cpp/absl/base/internal/sysinfo.h \
+  ../../third_party/abseil-cpp/absl/base/config.h \
+  ../../third_party/abseil-cpp/absl/base/options.h \
+  ../../third_party/abseil-cpp/absl/base/policy_checks.h \
+  ../../third_party/abseil-cpp/absl/base/port.h \
+  ../../third_party/abseil-cpp/absl/base/attributes.h \
+  ../../third_party/abseil-cpp/absl/base/optimization.h \
+  ../../third_party/abseil-cpp/absl/base/call_once.h \
+  ../../third_party/abseil-cpp/absl/base/internal/invoke.h \
+  ../../third_party/abseil-cpp/absl/base/internal/low_level_scheduling.h \
+  ../../third_party/abseil-cpp/absl/base/internal/raw_logging.h \
+  ../../third_party/abseil-cpp/absl/base/internal/atomic_hook.h \
+  ../../third_party/abseil-cpp/absl/base/log_severity.h \
+  ../../third_party/abseil-cpp/absl/base/macros.h \
+  ../../third_party/abseil-cpp/absl/base/internal/scheduling_mode.h \
+  ../../third_party/abseil-cpp/absl/base/internal/spinlock_wait.h \
+  ../../third_party/abseil-cpp/absl/base/internal/spinlock.h \
+  ../../third_party/abseil-cpp/absl/base/const_init.h \
+  ../../third_party/abseil-cpp/absl/base/dynamic_annotations.h \
+  ../../third_party/abseil-cpp/absl/base/internal/tsan_mutex_interface.h \
+  ../../third_party/abseil-cpp/absl/base/thread_annotations.h \
+  ../../third_party/abseil-cpp/absl/base/internal/unscaledcycleclock.h \
+  ../../third_party/abseil-cpp/absl/base/internal/unscaledcycleclock_config.h

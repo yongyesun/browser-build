@@ -1,0 +1,34 @@
+clang_x64/obj/third_party/abseil-cpp/absl/random/seed_sequences/seed_sequences.o: \
+  ../../third_party/abseil-cpp/absl/random/seed_sequences.cc \
+  ../../third_party/abseil-cpp/absl/random/seed_sequences.h \
+  ../../third_party/abseil-cpp/absl/base/config.h \
+  ../../third_party/abseil-cpp/absl/base/options.h \
+  ../../third_party/abseil-cpp/absl/base/policy_checks.h \
+  ../../third_party/abseil-cpp/absl/random/internal/salted_seed_seq.h \
+  ../../third_party/abseil-cpp/absl/container/inlined_vector.h \
+  ../../third_party/abseil-cpp/absl/algorithm/algorithm.h \
+  ../../third_party/abseil-cpp/absl/base/internal/throw_delegate.h \
+  ../../third_party/abseil-cpp/absl/base/macros.h \
+  ../../third_party/abseil-cpp/absl/base/attributes.h \
+  ../../third_party/abseil-cpp/absl/base/optimization.h \
+  ../../third_party/abseil-cpp/absl/base/port.h \
+  ../../third_party/abseil-cpp/absl/container/internal/inlined_vector.h \
+  ../../third_party/abseil-cpp/absl/container/internal/compressed_tuple.h \
+  ../../third_party/abseil-cpp/absl/utility/utility.h \
+  ../../third_party/abseil-cpp/absl/base/internal/inline_variable.h \
+  ../../third_party/abseil-cpp/absl/base/internal/identity.h \
+  ../../third_party/abseil-cpp/absl/base/internal/invoke.h \
+  ../../third_party/abseil-cpp/absl/meta/type_traits.h \
+  ../../third_party/abseil-cpp/absl/memory/memory.h \
+  ../../third_party/abseil-cpp/absl/types/span.h \
+  ../../third_party/abseil-cpp/absl/types/internal/span.h \
+  ../../third_party/abseil-cpp/absl/random/internal/seed_material.h \
+  ../../third_party/abseil-cpp/absl/random/internal/fast_uniform_bits.h \
+  ../../third_party/abseil-cpp/absl/random/internal/traits.h \
+  ../../third_party/abseil-cpp/absl/numeric/bits.h \
+  ../../third_party/abseil-cpp/absl/numeric/internal/bits.h \
+  ../../third_party/abseil-cpp/absl/numeric/int128.h \
+  ../../third_party/abseil-cpp/absl/numeric/int128_have_intrinsic.inc \
+  ../../third_party/abseil-cpp/absl/types/optional.h \
+  ../../third_party/abseil-cpp/absl/random/seed_gen_exception.h \
+  ../../third_party/abseil-cpp/absl/random/internal/pool_urbg.h

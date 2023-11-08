@@ -1,0 +1,2 @@
+clang_x64/obj/v8/torque_generated_definitions/bigint-tq.o: \
+  clang_x64/gen/v8/torque-generated/src/objects/bigint-tq.cc
