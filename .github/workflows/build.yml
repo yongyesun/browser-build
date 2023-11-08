@@ -64,7 +64,7 @@ jobs:
         git config http.postBuffer 1073741824
         git add ./cache
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')更新" || echo no change,
-        git push origin main
+        git push origin main || ( git pull origin main && git push origin main || true )
 
     - name: Uploading exe
       if: hashFiles(env.FLAG_STOP) == ''
