@@ -53,7 +53,16 @@ jobs:
     - run: $ROOT/script/build_step.sh mini_installer
     - run: df -h
     - run: ccache -s
-    - run: killall sleep && ( mv $ROOT/chromium/src/out/ $ROOT/ || true )
+    - run: mv $ROOT/chromium/src/out/ $ROOT/ || true
+
+    - name: Uploading ninja
+      if: hashFiles(env.FLAG_STOP) == ''
+      uses: actions/upload-artifact@v1
+      with:
+        name: ninja
+        path: $ROOT/out/Release64/build.ninja
+    
+    - run: killall sleep
 
     - name: 提交更改
       run: |
@@ -71,7 +80,7 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: mini_installer
-        path: $ROOT/out/mini_installer.exe
+        path: $ROOT/out/Release64/mini_installer.exe
         
     - name: SSH connection to Actions
       uses: P3TERX/ssh2actions@v1.0.0
