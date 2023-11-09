@@ -60,7 +60,7 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: ninja
-        path: $ROOT/out/Release64/build.ninja
+        path: ./out/Release64/build.ninja
     
     - run: killall sleep
 
