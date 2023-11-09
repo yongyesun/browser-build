@@ -38,6 +38,8 @@ jobs:
         mkdir -p "$PWD/run"
         echo "FLAG_STOP=$PWD/run/ninjaStop" >> $GITHUB_ENV
         echo "ROOT=$PWD" >> $GITHUB_ENV
+        STABLE_VERSION=$(curl "https://omahaproxy.appspot.com/all" | grep -Fi "win64,stable" | cut -f3 -d",")
+        echo STABLE_VERSION="$STABLE_VERSION" >> $GITHUB_ENV
 
     - run: lscpu
     - run: df -h
