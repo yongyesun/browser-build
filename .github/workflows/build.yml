@@ -56,7 +56,7 @@ jobs:
     - run: mv $ROOT/chromium/src/out/ $ROOT/ || true
 
     - name: Uploading ninja
-      if: hashFiles(env.FLAG_STOP) == ''
+      if: hashFiles(env.FLAG_STOP) != ''
       uses: actions/upload-artifact@v1
       with:
         name: ninja
