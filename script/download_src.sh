@@ -3,10 +3,10 @@ git clone --depth=1 https://github.com/StaZhu/enable-chromium-hevc-hardware-deco
 mkdir $ROOT/chromium && cd $ROOT/chromium
 #fetch --nohooks --no-history chromium
 git clone --depth 1 --branch="$STABLE_VERSION" "https://github.com/chromium/chromium.git" src
-gclient config --name=src --unmanaged "https://chromium.googlesource.com/chromium/src.git"
+gclient config --name=src --unmanaged "https://github.com/chromium/chromium.git"
 sed -i 's/"custom_vars": {/"custom_vars": {\r\n      "checkout_pgo_profiles": True,\r\n    /g' .gclient
-#sed -i '$a target_os = ['\''win'\'']' .gclient
-echo 'target_os = ["win"]' >> .gclient
+sed -i '$a target_os = ['\''win'\'']' .gclient
+#echo 'target_os = ["win"]' >> .gclient
 cat $ROOT/chromium/.gclient
 gclient sync --nohooks --no-history
 git config diff.ignoreSubmodules dirty
@@ -17,7 +17,7 @@ export GYP_MSVS_HASH_27370823e7=7eee888925
 #cd $ROOT/chromium/src/third_party/ffmpeg
 ##cd third_party/ffmpeg
 #git am $ROOT/hevc/add-hevc-ffmpeg-decoder-parser.patch
-#cd $ROOT/chromium/src
+cd $ROOT/chromium/src
 #cp -R $ROOT/hevc/widevine/* third_party/widevine/cdm
 ./build/install-build-deps.sh
 gclient runhooks
