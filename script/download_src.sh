@@ -14,10 +14,10 @@ mkdir $ROOT/chromium/win
 wget -P $ROOT/chromium/win https://github.com/Alex313031/Snippets/releases/download/10.1.22621.1778-1/7eee888925.zip -q
 export DEPOT_TOOLS_WIN_TOOLCHAIN_BASE_URL=$ROOT/chromium/win/
 export GYP_MSVS_HASH_27370823e7=7eee888925
-cd $ROOT/chromium/src
-cd third_party/ffmpeg
-git am $ROOT/hevc/add-hevc-ffmpeg-decoder-parser.patch
-cd $ROOT/chromium/src
-cp -R $ROOT/hevc/widevine/* third_party/widevine/cdm
+#cd $ROOT/chromium/src/third_party/ffmpeg
+##cd third_party/ffmpeg
+#git am $ROOT/hevc/add-hevc-ffmpeg-decoder-parser.patch
+#cd $ROOT/chromium/src
+#cp -R $ROOT/hevc/widevine/* third_party/widevine/cdm
 ./build/install-build-deps.sh
 gclient runhooks
