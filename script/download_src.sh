@@ -22,5 +22,5 @@ cd $ROOT/chromium/src
 cp -R $ROOT/hevc/widevine/* third_party/widevine/cdm
 ./build/install-build-deps.sh
 gclient runhooks
-cd $ROOT/chromium
-python3 src/v8/tools/builtins-pgo/download_profiles.py download --depot-tools src/third_party/depot_tools --version 11.9.169.6
+#cd $ROOT/chromium
+#python3 src/v8/tools/builtins-pgo/download_profiles.py download --depot-tools src/third_party/depot_tools --version 11.9.169.6
