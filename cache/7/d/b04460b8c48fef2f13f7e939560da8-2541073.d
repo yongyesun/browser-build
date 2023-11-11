@@ -1,0 +1,45 @@
+clang_x64/obj/base/allocator/partition_allocator/allocator_core/partition_address_space.o: \
+  ../../base/allocator/partition_allocator/partition_address_space.cc \
+  ../../base/allocator/partition_allocator/partition_address_space.h \
+  ../../base/allocator/partition_allocator/address_pool_manager_types.h \
+  ../../base/allocator/partition_allocator/page_allocator_constants.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/compiler_specific.h \
+  ../../build/build_config.h ../../build/buildflag.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/component_export.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/bits.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/check.h \
+  clang_x64/gen/base/allocator/partition_allocator/partition_alloc_base/debug/debugging_buildflags.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/immediate_crash.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/log_message.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/scoped_clear_last_error.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/strings/cstring_builder.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/notreached.h \
+  clang_x64/gen/base/allocator/partition_allocator/partition_alloc_buildflags.h \
+  ../../base/allocator/partition_allocator/partition_alloc_check.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/debug/alias.h \
+  ../../base/allocator/partition_allocator/partition_alloc_config.h \
+  ../../base/allocator/partition_allocator/partition_alloc_constants.h \
+  ../../base/allocator/partition_allocator/flags.h \
+  ../../base/allocator/partition_allocator/partition_alloc_forward.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/thread_annotations.h \
+  ../../base/allocator/partition_allocator/thread_isolation/alignment.h \
+  ../../base/allocator/partition_allocator/thread_isolation/thread_isolation.h \
+  ../../base/allocator/partition_allocator/thread_isolation/pkey.h \
+  ../../base/allocator/partition_allocator/address_pool_manager.h \
+  ../../base/allocator/partition_allocator/partition_lock.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/threading/platform_thread.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/threading/platform_thread_ref.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/time/time.h \
+  clang_x64/gen/base/allocator/partition_allocator/chromeos_buildflags.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/numerics/clamped_math.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/numerics/clamped_math_impl.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/numerics/checked_math.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/numerics/checked_math_impl.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/numerics/safe_conversions.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/numerics/safe_conversions_impl.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/numerics/safe_math_shared_impl.h \
+  ../../base/allocator/partition_allocator/partition_alloc_base/numerics/safe_math_clang_gcc_impl.h \
+  ../../base/allocator/partition_allocator/spinning_mutex.h \
+  ../../base/allocator/partition_allocator/yield_processor.h \
+  ../../base/allocator/partition_allocator/compressed_pointer.h \
+  ../../base/allocator/partition_allocator/page_allocator.h
