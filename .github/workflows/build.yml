@@ -60,7 +60,7 @@ jobs:
     - run: $ROOT/script/auto_kill.sh
     - run: df -h    
     - run: ccache -s
-    - run: $ROOT/script/build_step.sh run_mksnapshot_default
+    - run: $ROOT/script/build_step.sh vulkan-validation-layers
     - run: df -h
     - run: ccache -s
     - run: mv $ROOT/chromium/src/out/ $ROOT/ || true
