@@ -60,7 +60,6 @@ jobs:
     - run: $ROOT/script/auto_kill.sh
     - run: df -h    
     - run: ccache -s
-    - run: $ROOT/script/build_step.sh chrome_dll
     - run: $ROOT/script/build_step.sh chrome_dll_manifest
     - run: $ROOT/script/build_step.sh chrome_dll_version
     - run: $ROOT/script/build_step.sh chrome_exe_version
@@ -69,6 +68,7 @@ jobs:
     - run: $ROOT/script/build_step.sh other_version
     - run: $ROOT/script/build_step.sh packed_resources_integrity
     - run: $ROOT/script/build_step.sh gpu
+    - run: $ROOT/script/build_step.sh chrome_dll
     - run: $ROOT/script/build_step.sh chrome
     - run: $ROOT/script/build_step.sh mini_installer
     - run: df -h
