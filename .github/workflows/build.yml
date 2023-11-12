@@ -60,17 +60,17 @@ jobs:
     - run: $ROOT/script/auto_kill.sh
     - run: df -h    
     - run: ccache -s
+    - run: $ROOT/script/build_step.sh tools/metrics:metrics_metadata
+    - run: $ROOT/script/build_step.sh third_party/hyphenation-patterns
+    - run: $ROOT/script/build_step.sh courgette
+    - run: $ROOT/script/build_step.sh components/zucchini
+    - run: $ROOT/script/build_step.sh components/zucchini:zucchini64
+    - run: $ROOT/script/build_step.sh components/policy:pack_policy_templates
+    - run: $ROOT/script/build_step.sh chrome/updater/win:updater_zip
     - run: $ROOT/script/build_step.sh chrome/common/win:eventlog_provider
     - run: $ROOT/script/build_step.sh chrome/credential_provider
     - run: $ROOT/script/build_step.sh chrome/installer/gcapi
     - run: $ROOT/script/build_step.sh chrome/installer/mini_installer
-    - run: $ROOT/script/build_step.sh chrome/updater/win:updater_zip
-    - run: $ROOT/script/build_step.sh components/policy:pack_policy_templates
-    - run: $ROOT/script/build_step.sh components/zucchini
-    - run: $ROOT/script/build_step.sh components/zucchini:zucchini64
-    - run: $ROOT/script/build_step.sh courgette
-    - run: $ROOT/script/build_step.sh third_party/hyphenation-patterns
-    - run: $ROOT/script/build_step.sh tools/metrics:metrics_metadata
     - run: df -h
     - run: ccache -s
     - run: mv $ROOT/chromium/src/out/ $ROOT/ || true
