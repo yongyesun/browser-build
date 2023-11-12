@@ -69,8 +69,14 @@ jobs:
     - run: $ROOT/script/build_step.sh chrome/updater/win:updater_zip
     - run: $ROOT/script/build_step.sh chrome/common/win:eventlog_provider
     - run: $ROOT/script/build_step.sh chrome/credential_provider
-    - run: $ROOT/script/build_step.sh chrome/installer/gcapi
-    - run: $ROOT/script/build_step.sh chrome/installer/mini_installer
+    - run: $ROOT/script/build_step.sh chrome_runtime_deps
+    - run: $ROOT/script/build_step.sh setup_runtime_deps
+    - run: $ROOT/script/build_step.sh chrome/browser/extensions/default_extensions
+    - run: $ROOT/script/build_step.sh chrome/installer/setup
+    - run: $ROOT/script/build_step.sh mojo/core:shared_library
+    - run: $ROOT/script/build_step.sh third_party/icu:icudata
+    - run: $ROOT/script/build_step.sh chrome
+    - run: $ROOT/script/build_step.sh chrome/installer/mini_installer_archive
     - run: df -h
     - run: ccache -s
     - run: mv $ROOT/chromium/src/out/ $ROOT/ || true
