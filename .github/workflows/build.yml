@@ -60,6 +60,8 @@ jobs:
     - run: $ROOT/script/auto_kill.sh
     - run: df -h    
     - run: ccache -s
+    - run: $ROOT/script/build_step.sh chrome/chrome_proxy
+    - run: $ROOT/script/build_step.sh build:branding_buildflags
     - run: $ROOT/script/build_step.sh tools/metrics:metrics_metadata
     - run: $ROOT/script/build_step.sh third_party/hyphenation-patterns
     - run: $ROOT/script/build_step.sh courgette
