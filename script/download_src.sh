@@ -21,7 +21,7 @@ git am $ROOT/hevc/add-hevc-ffmpeg-decoder-parser.patch
 cd $ROOT/chromium/src
 cp -R $ROOT/hevc/widevine/* third_party/widevine/cdm
 #./build/install-build-deps.sh
-sudo bash install-build-deps.sh --no-chromeos-fonts --no-android
+sudo bash ./build/install-build-deps.sh --no-chromeos-fonts --no-android
 gclient runhooks
 #cd $ROOT/chromium
 #python3 src/v8/tools/builtins-pgo/download_profiles.py download --depot-tools src/third_party/depot_tools --version 11.9.169.6
