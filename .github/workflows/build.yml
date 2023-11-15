@@ -61,7 +61,6 @@ jobs:
     - run: df -h    
     - run: ccache -s
     - run: $ROOT/script/build_step.sh mini_installer_archive
-    - run: $ROOT/script/build_step.sh mini_installer
     - run: df -h
     - run: ccache -s
     - run: mv $ROOT/chromium/src/out/ $ROOT/ || true
