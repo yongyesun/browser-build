@@ -1,0 +1,32 @@
+clang_x64/obj/third_party/perfetto/protos/perfetto/ipc/ipc/consumer_port.ipc.o: \
+  clang_x64/gen/third_party/perfetto/protos/perfetto/ipc/consumer_port.ipc.cc \
+  clang_x64/gen/third_party/perfetto/protos/perfetto/ipc/consumer_port.ipc.h \
+  ../../third_party/perfetto/include/perfetto/ext/ipc/deferred.h \
+  ../../third_party/perfetto/include/perfetto/ext/ipc/async_result.h \
+  ../../third_party/perfetto/include/perfetto/ext/ipc/basic_types.h \
+  ../../third_party/perfetto/include/perfetto/ext/base/utils.h \
+  ../../third_party/perfetto/include/perfetto/base/build_config.h \
+  clang_x64/gen/third_party/perfetto/build_config/perfetto_build_flags.h \
+  ../../third_party/perfetto/include/perfetto/base/compiler.h \
+  ../../third_party/perfetto/include/perfetto/public/compiler.h \
+  ../../third_party/perfetto/include/perfetto/ext/base/sys_types.h \
+  ../../third_party/perfetto/include/perfetto/protozero/cpp_message_obj.h \
+  ../../third_party/perfetto/include/perfetto/base/export.h \
+  ../../third_party/perfetto/include/perfetto/public/abi/export.h \
+  ../../third_party/perfetto/include/perfetto/ext/ipc/service.h \
+  ../../third_party/perfetto/include/perfetto/base/logging.h \
+  ../../third_party/perfetto/include/perfetto/ext/base/scoped_file.h \
+  ../../third_party/perfetto/include/perfetto/base/platform_handle.h \
+  ../../third_party/perfetto/include/perfetto/ext/ipc/client_info.h \
+  ../../third_party/perfetto/include/perfetto/ext/ipc/service_descriptor.h \
+  ../../third_party/perfetto/include/perfetto/ext/ipc/service_proxy.h \
+  ../../third_party/perfetto/include/perfetto/ext/base/weak_ptr.h \
+  ../../third_party/perfetto/include/perfetto/ext/base/thread_checker.h \
+  clang_x64/gen/third_party/perfetto/protos/perfetto/ipc/consumer_port.gen.h \
+  ../../third_party/perfetto/include/perfetto/protozero/copyable_ptr.h \
+  clang_x64/gen/third_party/perfetto/protos/perfetto/common/observable_events.gen.h \
+  clang_x64/gen/third_party/perfetto/protos/perfetto/common/tracing_service_state.gen.h \
+  clang_x64/gen/third_party/perfetto/protos/perfetto/common/tracing_service_capabilities.gen.h \
+  clang_x64/gen/third_party/perfetto/protos/perfetto/common/trace_stats.gen.h \
+  clang_x64/gen/third_party/perfetto/protos/perfetto/config/trace_config.gen.h \
+  ../../third_party/perfetto/include/perfetto/ext/ipc/codegen_helpers.h
