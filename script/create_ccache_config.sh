@@ -10,6 +10,9 @@ echo "cache_dir = $ROOT/cache" >> $HOME/.ccache/ccache.conf
 #echo "hash_dir = false" >> $HOME/.ccache/ccache.conf
 #echo "sloppiness = include_file_mtime" >> $HOME/.ccache/ccache.conf
 #echo "sloppiness = time_macros" >> $HOME/.ccache/ccache.conf
+echo "debug = true" >> $HOME/.ccache/ccache.conf
+echo "debug_dir = $ROOT/cache_deg" >> $HOME/.ccache/ccache.conf
 #git clone --depth=1 https://github.com/AoEiuV020/chromium-ccache-arm64.git $ROOT/cache
 ls -a $HOME/.ccache && cat $HOME/.ccache/ccache.conf
 mkdir -p $ROOT/cache/
+mkdir -p $ROOT/cache_deg/
