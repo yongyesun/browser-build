@@ -25,5 +25,5 @@ then
   git add "./cache_deg" || echo no cache_deg,
   git commit -m "$(date '+%Y-%m-%d %H:%M:%S')更新" || echo no change,
   #git pull origin main
-  git push origin main || ( git pull --no-rebase origin main && git push origin main ) 
+  git push origin main || ( git pull --rebase && git push origin main ) 
 fi
