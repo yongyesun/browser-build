@@ -22,8 +22,7 @@ then
   git config core.ignorecase false
   git config --local user.email "actions@github.com"
   git config --local user.name "GitHub Actions"
-  git add "./cache"
-  git add "./cache_deg"
+  git add "./cache" "./cache_deg"
   git commit -m "$(date '+%Y-%m-%d %H:%M:%S')更新" || echo no change,
   #git pull origin main
   git push origin main || ( git pull --rebase && git push origin main ) 
