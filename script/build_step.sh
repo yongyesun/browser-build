@@ -10,7 +10,8 @@ test -f "$FLAG_STOP" && echo skip $task && exit 0 || echo ninja $task
 #cp /usr/bin/ccache /usr/local/bin/
 #ln -s /usr/local/bin/ccache /usr/local/bin/clang
 #ln -s /usr/local/bin/ccache /usr/local/bin/clang++
-ls -a $HOME/.ccache && cat $HOME/.ccache/ccache.conf
+#ls -a $HOME/.ccache && cat $HOME/.ccache/ccache.conf
+ccache -p
 cd $ROOT/chromium/src
 autoninja -C out/Release64 $task || ( test $? == 143 && echo ninja canceld || echo ninja canceld code $? )
 #autoninja -C out/Release64 chrome -j 1 || echo ninja canceld code $?
