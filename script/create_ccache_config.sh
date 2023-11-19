@@ -16,4 +16,4 @@ echo "debug_dir = $ROOT/cache_deg" >> $HOME/.ccache/ccache.conf
 ls -a $HOME/.ccache && cat $HOME/.ccache/ccache.conf
 mkdir -p $ROOT/cache/
 mkdir -p $ROOT/cache_deg/
-ls -a $ROOT
+ls -lh $ROOT
