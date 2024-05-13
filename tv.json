@@ -22,10 +22,10 @@
     {
       "name": "Guovin",
       "type":0,
+      "urls":"https://raw.githubusercontent.com/Guovin/TV/gd/result.txt",
       "playerType":1,
       "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo":"https://epg.112114.xyz/logo/{name}.png",
-      "urls":"https://raw.githubusercontent.com/Guovin/TV/gd/result.txt"
+      "logo":"https://epg.112114.xyz/logo/{name}.png"
     }
   ],
   "parses": [
