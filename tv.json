@@ -20,19 +20,12 @@
   ],
   "lives": [
     {
-      "group": "自定义",
-      "channels": [
-        {
-          "name": "直播源",
-          "type":0,
-          "playerType":1,
-          "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
-          "logo":"https://epg.112114.xyz/logo/{name}.png",
-          "urls": [
-            "https://raw.githubusercontent.com/Guovin/TV/gd/result.txt"
-          ]
-        }
-      ]
+      "name": "Guovin",
+      "type":0,
+      "playerType":1,
+      "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo":"https://epg.112114.xyz/logo/{name}.png",
+      "urls":"https://raw.githubusercontent.com/Guovin/TV/gd/result.txt"
     }
   ],
   "parses": [
