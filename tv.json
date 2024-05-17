@@ -654,7 +654,7 @@
 	}],
 	"lives": [{
 		"name": "Guovin",
-		"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+		"ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36",
 		"type": 0,
 		"url": "https://raw.githubusercontent.com/Guovin/TV/gd/result.txt",
 	    	"playerType": 1,
